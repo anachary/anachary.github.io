@@ -6,7 +6,7 @@ summary: "Defination of machine leaning."
 author: anachary
 date: '2019-05-22 14:35:23 +0530'
 category: "ml"
-thumbnail: /assets/img/posts/ml.jpg
+thumbnail: assets/img/posts/ml.jpg
 keywords: logical programmer, What is Machine Learning, ML, AI, DataScience.
 permalink: /blog/2022-11-13-machine-learning/
 usemathjax: true
