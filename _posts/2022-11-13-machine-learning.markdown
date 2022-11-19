@@ -4,7 +4,7 @@ title: Machine Learning
 title:  "Introduction of Machine Learning"
 summary: "Defination of machine leaning."
 author: anachary
-date: '2019-05-22 14:35:23 +0530'
+date: '2022-11-13 14:35:23 +0530'
 category: "ml"
 thumbnail: assets/img/posts/ml.jpg
 keywords: logical programmer, What is Machine Learning, ML, AI, DataScience.
