@@ -30,13 +30,13 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 author_education_details:
               - college_logo: psu.jpg
                 college_name: PSU (Pennslyvania State University)
-                college_url: https://psu.org
+                college_url:  https://www.psu.edu/
                 college_degree: Software Engineer
                 description: Master of Science in Software Engineering.
                 visibility: true
               - college_logo: purdue.jpg
                 college_name: Purdue University 
-                college_url: https://purdue.org
+                college_url: https://www.purdue.edu
                 college_degree: Electrical Engineer
                 description: Bachelors of Science in Electrical Engineering.
                 visibility: true
@@ -60,9 +60,9 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: false
+show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: false
+show_author_project_details: true
 
 # pagination of posts
 paginate: 4
