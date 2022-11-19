@@ -1,0 +1,1828 @@
+	<style>
+.at-resp-share-element .at-share-btn {
+    margin: 0 8px 5px !important;
+}
+@media only screen and (max-width: 768px) {
+.ctarm {display:block; margin: 5px 15px 5px 15px !important;}
+.responsivevoice-button{display:block; margin: 5px 15px 5px 15px !important;}
+}
+	   .ctarm {
+		color: #000;
+		background-color: #f1d600;
+		transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+		-webkit-transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		   padding: 20px;
+		   margin: 20px 10px 20px 0;
+		   font-size: 22px;
+		   font-weight: bold;
+    
+	}
+		.ctarm:hover, .ctarm:active {
+		background-color: #fff;
+		color: #000;
+	}
+	.responsivevoice-button span{
+		color: #000 !important;
+		background-color: none !important;
+		margin: 0 !important;
+		font-size: 22px !important;
+		font-weight: bold !important;	
+		
+	}
+	.responsivevoice-button{
+		color: #000;
+		background-color: #f1d600;
+		transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+		-webkit-transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		   padding: 18px;
+		   margin: 20px auto;
+		   font-size: 22px;
+		   font-weight: bold;
+		border:0px;
+		cursor: pointer;
+		display: inline-grid;
+	}
+		.responsivevoice-button:hover, .responsivevoice-button:active {
+		background-color: #fff;
+		color: #000;
+	}
+		.socialbtn {
+		color: #000;
+		transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+		-webkit-transition: background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		   padding: 5px;
+		   margin: 20px;
+		   font-size: 30px;
+		   font-weight: bold;
+	}
+		.socialbtn:hover, .socialbtn:active {
+		color: #5A5A5A;
+	}
+		
+		
+		.page-name ul li:before {
+		content: "|" !important;
+		position: absolute;
+		right: -4px;
+		top: 0;
+			background: transparent !important; 
+	}
+		.pagename11 span, .span-reading-time{    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important; color:#000 !important;} 
+		
+		.mainheadbg {
+    background-color: #f0f4f6;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 95%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 95%,0 100%);
+.paddleft{padding-left: 15px !important;}
+}
+		</style>
+	<!DOCTYPE html>
+<html lang="en-US" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:addthis="https://www.addthis.com/help/api-spec"  >
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NF4HKFW');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4863332-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4863332-1');
+</script>-->
+<!-- Hotjar Tracking Code for www.einfochips.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1800644,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="alternate" href="https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>How to Develop Machine Learning Applications for Business</title>
+	<meta name="description" content="Problem framing, data cleaning, feature engineering, model training, and improving model accuracy are few of the steps to be followed for developing machine learning applications for business." />
+	<link rel="canonical" href="https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How to Develop Machine Learning Applications for Business" />
+	<meta property="og:description" content="Problem framing, data cleaning, feature engineering, model training, and improving model accuracy are few of the steps to be followed for developing machine learning applications for business." />
+	<meta property="og:url" content="https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/" />
+	<meta property="article:published_time" content="2018-10-29T06:53:44+00:00" />
+	<meta property="article:modified_time" content="2019-12-11T06:39:00+00:00" />
+	<meta property="og:image" content="https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg" />
+	<meta property="og:image:width" content="1000" />
+	<meta property="og:image:height" content="647" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Anand Borad" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Anand Borad" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="8 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/","url":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/","name":"How to Develop Machine Learning Applications for Business","isPartOf":{"@id":"https://www.einfochips.com/blog/#website"},"primaryImageOfPage":{"@id":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/#primaryimage"},"image":{"@id":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/#primaryimage"},"thumbnailUrl":"https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg","datePublished":"2018-10-29T06:53:44+00:00","dateModified":"2019-12-11T06:39:00+00:00","author":{"@id":"https://www.einfochips.com/blog/#/schema/person/4f7434af498c680d7de9d175db78f4ca"},"description":"Problem framing, data cleaning, feature engineering, model training, and improving model accuracy are few of the steps to be followed for developing machine learning applications for business.","breadcrumb":{"@id":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/#primaryimage","url":"https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg","contentUrl":"https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg","width":1000,"height":647,"caption":"How to Develop Machine Learning Applications for Business"},{"@type":"BreadcrumbList","@id":"https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.einfochips.com/blog/"},{"@type":"ListItem","position":2,"name":"How to Develop Machine Learning Applications for Business"}]},{"@type":"WebSite","@id":"https://www.einfochips.com/blog/#website","url":"https://www.einfochips.com/blog/","name":"","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.einfochips.com/blog/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.einfochips.com/blog/#/schema/person/4f7434af498c680d7de9d175db78f4ca","name":"Anand Borad","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.einfochips.com/blog/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/151c9f18fb0c5b05c38f1a544b9e45b9?s=96&r=g","contentUrl":"https://secure.gravatar.com/avatar/151c9f18fb0c5b05c38f1a544b9e45b9?s=96&r=g","caption":"Anand Borad"},"description":"Anand Borad works as senior marketing executive and takes care of digital and content marketing efforts for Medical devices, Connected Retail &amp; Healthcare and New product development initiatives. He enjoys learning newer technologies and adopting it into everyday marketing practices.","sameAs":["http://www.einfochips.com/blog"],"url":"https://www.einfochips.com/blog/author/anand-borad/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://www.einfochips.com/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://www.einfochips.com/blog/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.einfochips.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='contact-form-7-css' href='https://www.einfochips.com/blog/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css' href='https://www.einfochips.com/blog/wp-content/plugins/cookie-notice/css/front.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='addthis_all_pages-css' href='https://www.einfochips.com/blog/wp-content/plugins/addthis-follow/frontend/build/addthis_wordpress_public.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ubermenu-css' href='https://www.einfochips.com/blog/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ubermenu-vanilla-css' href='https://www.einfochips.com/blog/wp-content/plugins/ubermenu/assets/css/skins/vanilla.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ubermenu-font-awesome-css' href='https://www.einfochips.com/blog/wp-content/plugins/ubermenu/assets/css/fontawesome/css/font-awesome.min.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cr-mm-bootstrap3-css' href='https://www.einfochips.com/blog/wp-content/plugins/crazyblog-custom-plugin/assets/3rd-party/bs3/bootstrap/css/bootstrap.min.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cr-mm-bootstrap3-icomoon-css' href='https://www.einfochips.com/blog/wp-content/plugins/crazyblog-custom-plugin/assets/3rd-party/bs3/font-icomoon/css/icomoon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cr-font-awesome-css' href='https://www.einfochips.com/blog/wp-content/plugins/crazyblog-custom-plugin/assets/3rd-party/font-awesome/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cr-megamenu-site-css' href='https://www.einfochips.com/blog/wp-content/plugins/crazyblog-custom-plugin/assets/css/frontend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog-theme-fonts-css' href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C100%2C200%2C300%2C500%2C600%2C700%2C800%2C900%7CMontserrat%3A400%2C700%7CLato%3A100%2C100italic%2C300%2C300italic%2C400%2C400italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair%2BDisplay%3A400%2C400italic%2C700%2C700italic%2C900%2C900italic%7CCabin%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700italic%2C700&#038;subset=latin%2Clatin-ext&#038;ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog-style-google-fonts-css' href='https://www.einfochips.com/blog?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-herrvon-css' href='https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&#038;ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-Abril-css' href='https://fonts.googleapis.com/css?family=Abril+Fatface&#038;ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-bootstrap-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/bootstrap.min.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-icon-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/icons.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-fontawesome-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/font-awesome.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-select2-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/select2.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_magnific-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/magnific-popup.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-slick-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/slick.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-animate-css' href='https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-style-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/style.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-responsive-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/responsive.css?ver=1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='crazyblog_df-color-css' href='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/css/color.css?ver=1.9' type='text/css' media='all' />
+<style id='crazyblog_df-color-inline-css' type='text/css'>
+.topbar .simple-social-links a{
+Font-size: 19px !important;
+margin-left: 10px !important;
+margin-right: 0px !important;
+color:#2d2d2d;
+}
+
+.simple-social-links > a{
+float: left !important;
+width: 19px !important;
+}
+
+.header-form{
+    float: right !important;
+}
+
+.header-form > form{
+    background: #ededed none repeat scroll 0 0 !important;
+    border: 1px solid #a1a1a1 !important;
+    min-width:300px !important;
+}
+
+.header-form > form button{
+    color:#000 !important;
+}
+
+.topbar {
+    background: #ededed none repeat scroll 0 0;
+    float: left;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.topbar ul li {
+    color: #2d2d2d;
+    font-size: 11px;
+}
+.logobar{
+    padding:18px 0;
+}
+
+.creative-header nav {
+    background: #23282d none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    float: left;
+    width: 100%;
+}
+.topbar ul {
+    padding: 5px 0 3px;
+}
+
+.logobar::before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+
+footer .block{
+    padding: 10px 0;
+}
+
+.about-logo{
+    margin-bottom:0;
+}
+
+notifications {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.simpleheader2 .logo{margin-bottom:1px; margin-top:5px;}
+
+
+.lookbook-detail h3 a:hover,
+ul.meta li a:hover,
+.texty-post ul li a:hover,
+.texty-post h2 a:hover,
+.grid-post h3 a:hover,
+.cat > a:hover,
+.fancy-post-inner h3 a:hover,
+.pagination > li.prev > a:hover,
+.pagination > li.next > a:hover,
+.square-img span,
+.square-post h4 a:hover,
+.viewmore i,
+.small-post-name li a,
+.small-post-name > h4 a:hover,
+.bottom-footer ul li a:hover,
+.viewmore:hover,
+footer.dark .simple-social-links > a:hover,
+.simple-social-links > a:hover,
+form.subscribtion button:hover,
+.categories > a:hover,
+.nav.nav-tabs li.active a,
+.author-post > h3 a:hover,
+.author-post > i,
+.option-set li a.selected,
+.post-item-center > a:hover,
+.post-item-center h3 a:hover,
+.page-name ul li a:hover,
+.short-info li a:hover,
+.other-post-name > h5 a:hover,
+.author-media > a:hover,
+.author-detail > h4 a:hover,
+.comment-detail > a.reply,
+.comment-form button:hover,
+.related-post-name > h4 a:hover,
+.topbar ul li a:hover,
+.creative-header nav ul.menu-links > li:hover > a,
+.transparent-header form button,
+.menu-links ul li:hover > a,
+.mega-post > h4 a:hover,
+.mega-links a:hover,
+.tab-post > h5 a:hover,
+.sidebar-post > h3 a:hover,
+.widget li a:hover,
+.widget .about-widget > ul li i,
+.fancy-post-name > h3 a:hover,
+.article-detail > h5 a:hover,
+.author-name > strong a:hover,
+.single-link > a:hover,
+/* New Pages Style */
+.menulogo-bar nav ul li > a:hover,
+.featured-post-detail > h2 > a:hover,
+.text-div > strong > span,
+.weekly-post-detail > h2 > a:hover,
+.center-heading > span,
+ul.meta li a:hover,
+.post-detail2 > h2 > a:hover,
+.ourrecipe-content .currecipe-info > h4 > a:hover,
+.viewall,
+.ourrecipe-content ul li .currecipe-info a:hover,
+.ourrecipe-carousel .owl-nav > div:hover::before, 
+.recipe-chief > li > strong,
+.recipe-chief > li > a:hover,
+.recipedetail > h2 > a:hover,
+.bigguide-carousel > button:hover::before,
+.bigguide-detail > h2 > a:hover,
+.bigguide-detail > a,
+.sub-head,
+.btn1 > a:hover,
+.big-search-text > span,
+.big-search-text strong i,
+.travel-post-details h3 a:hover,
+.readmore,
+.fashion-detail > h3 a:hover,
+.popups > a:hover,
+.shop-menu nav > ul > li > a:hover,
+.product-post h5 a:hover,
+.shop-post-title h3 a:hover,
+.creative-post-name > a,
+.continue,
+.creative-post-name > h4 a:hover,
+.full-post-detail > h4 a:hover,
+.slide-title2 span,
+.add-menu .container > ul li a:hover,
+.mag-post-detail h3 a:hover,
+.magazine-post .meta li,
+.weekly-tab-post > h4 a:hover,
+.weekly-tab-post .meta li,
+.featured-post-inner > h4 a:hover,
+.bar-header nav > ul li a:hover,
+.add-review > a,
+.add-review > span,
+.stars span,
+.available-sizes > a.selected,
+.product-categories > a:hover,
+.autoblog-post-detail > h2 > a:hover,
+.widget ul li:hover > span,
+.widget ul li:hover > a,
+.img-row > li > a:hover,
+.shop-menu form .form-close:hover,
+.quantity-area,
+.product-list-info > a:hover,
+.simpleheader2.light ul.menu-links > li:hover > a,
+/*===== New Changes 12-5-16 =====*/
+#wp-calendar a,
+.article-detail a,
+.comment-reply-link,
+.comment-reply-link:hover,
+.comment-form input.submit:hover,
+.logged-in-as > a,
+#respond > a,
+.logged-in-as > a:hover,
+#respond > a:hover,
+.reset_variations,
+.product-categories > span > a:hover,
+.single-product .wc-tabs-wrapper > ul > li.active,
+.single-product .wc-tabs-wrapper > ul > li:hover,
+.wc-tabs-wrapper .wc-tab h3 a,
+.wc-tabs-wrapper .wc-tab p > p > span a,
+.woocommerce .star-rating span,
+.woocommerce .woocommerce-info > a,
+.woocommerce .woocommerce-info::before,
+.lost_reset_password input.button:hover,
+.woocommerce .woocommerce-message::before,
+.woocommerce .woocommerce-message .button:hover,
+.woocommerce .login .button:hover,
+.lost_password > a,
+.product-name > a,
+.woocommerce .woocommerce-error > a,
+.woocommerce .woocommerce-error a,
+.myaccount_user > a,
+.order-number > a,
+.address a,
+.woo-pagination .pagination > li > a.prev:hover,
+.woo-pagination .pagination > li > a.next:hover,
+.woocommerce-remove-coupon:hover::before,
+.shipping-calculator-button,
+.recipe-single .short-info li a,
+.recipe-single .post-name ul.meta li > a,
+.serves-sec > ul > li.degree,
+.recipe-ratings > ul > li,
+.topbar .simple-social-links a:hover,
+.pagination > li > a.prev:hover,
+.pagination > li > a.next:hover,
+.responsive-menu > ul li > a:hover,
+.responsive-menu > ul li.menu-item-has-children > i:hover,
+.responsive-menu > ul li.active > a,
+.responsive-menu > ul li.menu-item-has-children.active > i,
+.pagination > li:first-child > a:hover,
+.pagination > li:last-child > a:hover,
+.woocommerce .woocommerce-message > a,
+.default-template p a,
+.simpleheader2 nav > ul.menu-links > li > a:hover,
+.recent-recipe .tab-post > span,
+.recipe-widget-post > h3 > a:hover,
+.recipe-post-info > a:hover,
+.cats > a:hover,
+.fancy-menu > ul > li > a:hover,
+.recentcomments > span.comment-author-link > a,
+.menu-links ul li.menu-item-has-children:hover::before,
+.bar-header.style2 nav > ul > li:hover > a,
+.slider-postinfo > li > a,
+.slider-postdetail > h4 > a:hover,
+.social-share > ul > li > a:hover,
+.carousel-data > h2 span,
+.textcarousel-social > li a:hover,
+.event-detail > ul > li > span,
+.post-comments li table a,
+.post-comments li dd a,
+.wp-caption-text > a,
+.page-content a,
+.mfn-gallery a,
+.widget li.recentcomments span.comment-author-link a,
+.nav-previous > a:hover,
+.nav-next > a:hover,
+button.process:hover > i{
+    color:#0073aa;
+}
+.btn,
+.loadmore:hover,
+.pagination > li.active > a,
+.pagination > li > a:hover,
+.square-img a:hover,
+.slick-btns button:hover,
+form.subscribtion button,
+.gallery-slide a i,
+.photos-carousel .owl-nav > div:hover,
+footer.dark .photos-carousel .owl-nav > div:hover,
+.cats > a:before,
+.post-item-center > a,
+.short-info:before,
+.tags > a:before,
+.related-carousel .owl-nav > div:hover,
+.comment-form button,
+.simple-header ul.menu-links > li > a:before, 
+.simple-header ul.menu-links > li > a:after,
+.simple-links > a:hover,
+.creative-header nav ul.menu-links > li > a > i,
+.creative-header nav ul.menu-links > li:hover > a:after,
+.simple-social > a:hover,
+.fancy-post-carousel .owl-nav > div:hover,
+.sidebar .widget-title:before,
+.subscribe-widget form button,
+.article-detail > a,
+.responsive-search form button,
+.grid-post-img > a,
+.fancy-social > a:hover,
+.dark-btn:hover,
+/* New Pages Style */
+.menulogo-bar nav ul li:hover::after,
+.sponsor-carousel .owl-nav > div:hover,
+.featured-post-detail > span > a,
+.cat-btn,
+.cat-btn:hover > i,
+.post2-info > a,
+.viewall:hover,
+.recipedetail > a,
+.video-icon,
+.bigguide-detail > a:hover,
+.btn1 > a,
+.topbar.coloured,
+.fancy-logo > a,
+.big-search-form > form button,
+.readmore:hover,
+.simple-btn,
+.product-img:before,
+.view-all > a:hover,
+.creative-post-name > a:hover,
+.continue:hover,
+.cart-btn,
+.wishlist-btn:hover,
+.post-social-links > a:hover,
+.post-popup-detail > ul.list li:before,
+.widget .tabs-widget .nav li.active a,
+.tab-post > i::before,
+.dark-btns:hover,
+.simpleheader2 nav > ul.menu-links > li:hover > a::after,
+/*===== New Changes 12-5-16 =====*/
+.tagcloud > a:before,
+.comment-form input.submit,
+.product-post del .amount::before,
+.single-product span.onsale,
+.lost_reset_password input.button,
+.woocommerce .woocommerce-message .button,
+.woocommerce .login .button,
+.woocommerce .checkout_coupon .button:hover,
+.woocommerce .return-to-shop .button,
+.woocommerce .return-to-shop .button:hover,
+.shop_table .order-actions > .button,
+.shop_table .order-actions > .button:hover,
+.woo-pagination .pagination > li .current,
+a.dark-btns:hover,
+.shipping-area .shipping-calculator-form .button:hover,
+input.button.dark-btns:hover,
+.pagination > li.active > a:hover,
+.recipe-single .single-image > a,
+.recipe-single .single-image > span,
+.single-post-carousel .owl-nav > div:hover,
+.pagination > li > span.current,
+.pagination > li > span.current:hover,
+.dark .tabs-widget .nav li a:hover,
+.social-widget > a,
+.mega-carousel-slick > button.flickity-prev-next-button:hover,
+.social-footer > ul li:hover > a,
+.mainslide-carousel .owl-dots .owl-dot.active,
+form.cart table td a{
+    background:#0073aa;
+}
+
+.wc-tabs-wrapper .wc-tab .comment-form .form-submit > input#submit {
+    background: #0073aa !important;
+}
+/* Background Transparent */
+.autoblog-post-detail
+{
+    background: rgba(218,33,39,.79);
+}
+.owl-dots .owl-dot.active{
+    background-color:#0073aa;
+}
+.loadmore:hover,
+.widget-title h4:before, 
+.widget-title:before, 
+.widget-title:after,
+.owl-dots .owl-dot.active,
+.nav.nav-tabs li.active a,
+.option-set li a.selected,
+.timer .countdown li:after,
+/* New Pages Style */
+.sponsor-div > a:hover > img,
+.post2-info > a::before,
+.viewall,
+.recipeinfo > li > span,
+.bigguide-detail > a,
+.readmore,
+.creative-post-name > a,
+.continue,
+.add-review > a,
+.available-sizes > a.selected,
+.wishlist-btn:hover,
+.product-post ins .amount,
+.woo-pagination .pagination > li .current,
+.pagination > li > span.current,
+.pagination > li > span.current:hover{
+    border-color:#0073aa;
+}
+.recipe-chief > li > span:before,
+.shop-post-title > span:before,
+.recipe-instructions > ul > li > span::before 
+{
+    border-left-color: #0073aa;
+}
+.big-search-form > form button:before,
+.cssload-inner.cssload-two{
+    border-right-color: #0073aa;
+}
+.recipeinfo > li > span::before,
+.cssload-inner.cssload-three,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message
+{
+    border-top-color: #0073aa;
+}
+.shop-post-img:before,
+.available-sizes > a.selected:before,
+.cssload-inner.cssload-one{
+    border-bottom-color: #0073aa;
+}
+
+.fancy-header .simple-social-links a:hover{
+    color: #fff;
+}
+
+</style>
+<link rel='stylesheet' id='crazyblog_theme-fonts-css' href='https://fonts.googleapis.com/css?family=Droid%2BSerif%3A300%2C400%2C500%2C700%7CABeeZee%3A300%2C400%2C500%2C700&#038;subset=latin%2Clatin-ext&#038;ver=1.9' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.einfochips.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.einfochips.com/blog/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel='shortlink' href='https://www.einfochips.com/blog/?p=7128' />
+<link rel="alternate" type="application/json+oembed" href="https://www.einfochips.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.einfochips.com%2Fblog%2Fhow-to-develop-machine-learning-applications-for-business%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.einfochips.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.einfochips.com%2Fblog%2Fhow-to-develop-machine-learning-applications-for-business%2F&#038;format=xml" />
+<style id="ubermenu-custom-generated-css">
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+.ubermenu.ubermenu-main { background:none; border:none; box-shadow:none; }
+.ubermenu.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { border:none; box-shadow:none; }
+.ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar, .ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width { left:0; }
+.ubermenu.ubermenu-main.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop, .ubermenu.ubermenu-main.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop { margin-top:0; }
+.ubermenu-main .ubermenu-item-level-0 > .ubermenu-target { font-size:15px; color:#444444; border:none; }
+.ubermenu-main .ubermenu-nav .ubermenu-item.ubermenu-item-level-0 > .ubermenu-target { font-weight:normal; }
+.ubermenu.ubermenu-main .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { color:#0a0a0a; }
+.ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target { color:#0a0a0a; }
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header > .ubermenu-target, .ubermenu-main .ubermenu-tab > .ubermenu-target { font-size:14px; }
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header > .ubermenu-target { color:#5b5b5b; }
+.ubermenu-main .ubermenu-nav .ubermenu-submenu .ubermenu-item-header > .ubermenu-target { font-weight:bold; }
+.ubermenu-main .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target { border-bottom:1px solid #939292; }
+.ubermenu-main .ubermenu-item-normal > .ubermenu-target { font-size:14px; }
+.ubermenu-main, .ubermenu-main .ubermenu-target, .ubermenu-main .ubermenu-nav .ubermenu-item-level-0 .ubermenu-target { font:25px/17px; }
+
+
+/** UberMenu Custom Menu Item Styles (Menu Item Settings) **/
+/* 4694 */  .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4694 { background-color:#e1e1e1; }
+            .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4694 .ubermenu-target, .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4694 .ubermenu-target > .ubermenu-target-description { color:#0a0a0a; }
+/* 4683 */  .ubermenu .ubermenu-item.ubermenu-item-4683 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4683 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4683.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4684 */  .ubermenu .ubermenu-item.ubermenu-item-4684 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4684 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4684.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4685 */  .ubermenu .ubermenu-item.ubermenu-item-4685 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4685 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4685.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4686 */  .ubermenu .ubermenu-item.ubermenu-item-4686 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4686 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4686.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4687 */  .ubermenu .ubermenu-item.ubermenu-item-4687 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4687 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4687.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4689 */  .ubermenu .ubermenu-item.ubermenu-item-4689 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4689 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4689.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4690 */  .ubermenu .ubermenu-item.ubermenu-item-4690 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4690 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4690.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4691 */  .ubermenu .ubermenu-item.ubermenu-item-4691 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4691 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4691.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4692 */  .ubermenu .ubermenu-item.ubermenu-item-4692 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4692 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4692.ubermenu-custom-content-padded { padding:15px 10px; }
+/* 4679 */  .ubermenu .ubermenu-item.ubermenu-item-4679 > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4679 > .ubermenu-content-block,.ubermenu .ubermenu-item.ubermenu-item-4679.ubermenu-custom-content-padded { padding:15px; }
+/* 4708 */  .ubermenu .ubermenu-item.ubermenu-item-4708 > .ubermenu-target { background:#dd8604; color:#ffffff; }
+            .ubermenu .ubermenu-item.ubermenu-item-4708.ubermenu-active > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-4708 > .ubermenu-target:hover, .ubermenu .ubermenu-submenu .ubermenu-item.ubermenu-item-4708.ubermenu-active > .ubermenu-target, .ubermenu .ubermenu-submenu .ubermenu-item.ubermenu-item-4708 > .ubermenu-target:hover { background:#dd8604; }
+            .ubermenu .ubermenu-item.ubermenu-item-4708.ubermenu-active > .ubermenu-target, .ubermenu .ubermenu-item.ubermenu-item-4708:hover > .ubermenu-target, .ubermenu .ubermenu-submenu .ubermenu-item.ubermenu-item-4708.ubermenu-active > .ubermenu-target, .ubermenu .ubermenu-submenu .ubermenu-item.ubermenu-item-4708:hover > .ubermenu-target { color:#ffffff; }
+            .ubermenu .ubermenu-item.ubermenu-item-4708.ubermenu-current-menu-item > .ubermenu-target,.ubermenu .ubermenu-item.ubermenu-item-4708.ubermenu-current-menu-ancestor > .ubermenu-target { background:#dd8604; }
+/* 4653 */  .ubermenu .ubermenu-item-4653 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-4653 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:25px; }
+/* 4658 */  .ubermenu .ubermenu-item-4658 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-4658 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:25px; }
+/* 4663 */  .ubermenu .ubermenu-item-4663 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-4663 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:25px; }
+/* 4645 */  .ubermenu .ubermenu-item-4645 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4644 */  .ubermenu .ubermenu-item-4644 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4640 */  .ubermenu .ubermenu-item-4640 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 7422 */  .ubermenu .ubermenu-item-7422 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 7423 */  .ubermenu .ubermenu-item-7423 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4641 */  .ubermenu .ubermenu-item-4641 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4643 */  .ubermenu .ubermenu-item-4643 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4647 */  .ubermenu .ubermenu-item-4647 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4646 */  .ubermenu .ubermenu-item-4646 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4642 */  .ubermenu .ubermenu-item-4642 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:46px; }
+/* 4638 */  .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4638 { background-color:#e1e1e1; }
+            .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4638 .ubermenu-target, .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4638 .ubermenu-target > .ubermenu-target-description { color:#020202; }
+/* 4677 */  .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4677 { background-color:#e1e1e1; }
+            .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4677 .ubermenu-target, .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4677 .ubermenu-target > .ubermenu-target-description { color:#000000; }
+/* 4649 */  .ubermenu .ubermenu-item-4649 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-4649 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:80px; }
+/* 4648 */  .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4648 { background-color:#e1e1e1; }
+            .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4648 .ubermenu-target, .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4648 .ubermenu-target > .ubermenu-target-description { color:#000000; }
+/* 4667 */  .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4667 { background-color:#e1e1e1; }
+            .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4667 .ubermenu-target, .ubermenu .ubermenu-submenu.ubermenu-submenu-id-4667 .ubermenu-target > .ubermenu-target-description { color:#000000; }
+/* 7441 */  .ubermenu .ubermenu-item-7441 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:55px; }
+            .ubermenu .ubermenu-item-7441 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-7441 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:5px; }
+/* 7440 */  .ubermenu .ubermenu-item-7440 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:55px; }
+            .ubermenu .ubermenu-item-7440 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-7440 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:5px; }
+/* 7439 */  .ubermenu .ubermenu-item-7439 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:55px; }
+            .ubermenu .ubermenu-item-7439 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-7439 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:5px; }
+/* 7438 */  .ubermenu .ubermenu-item-7438 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text { padding-left:55px; }
+            .ubermenu .ubermenu-item-7438 > .ubermenu-item-layout-image_left > .ubermenu-target-title, .ubermenu .ubermenu-item-7438 > .ubermenu-item-layout-image_right > .ubermenu-target-title { padding-top:5px; }
+
+
+/** UberMenu Custom Tweaks (General Settings) **/
+#menu-item-4708 {
+    border: 4px solid #fff !important;
+}
+#menu-item-8305{
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+}
+
+#menu-item-10695{
+    margin-top: -50px;
+}
+#menu-item-10696{
+    margin-top: -50px;
+}
+#menu-item-8303{
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+
+}
+#menu-item-8304{
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+}
+.ubermenu-submenu-id-10695{
+background-color: #303030 !important;
+}
+.ubermenu-submenu-id-10696{
+background-color: #303030 !important;
+}
+#menu-item-9299{
+border-right: 0px solid #939292;
+}
+#menu-item-4682{
+    border-left: 1px solid #939292;
+    border-right: 1px solid #939292;
+}
+#menu-item-13646, #menu-item-1641, #menu-item-6209, #menu-item-0562266600{
+border-right:0px Solid #939292;
+}
+
+.ubermenu-transition-shift .ubermenu-item .ubermenu-submenu-drop {
+    margin-top: 0% !important;
+    border-top: 2px solid #1a93cc !important;
+}
+.ubermenu .ubermenu-item.ubermenu-item-6380 > .ubermenu-target,
+.ubermenu .ubermenu-item.ubermenu-item-6383 > .ubermenu-target, 
+.ubermenu .ubermenu-item.ubermenu-item-6318 > .ubermenu-target, 
+.ubermenu .ubermenu-item.ubermenu-item-6334 > .ubermenu-target, 
+.ubermenu .ubermenu-item.ubermenu-item-7645 > .ubermenu-target,
+.ubermenu .ubermenu-item.ubermenu-item-7662 > .ubermenu-target
+{
+Padding:15px 20px 30px 20px !important;
+}
+
+ul li #menu-item-4639 a.ubermenu-target, ul li #menu-item-1641 a.ubermenu-target, ul li #menu-item-6209 a.ubermenu-target, ul li #menu-item-6210 a.ubermenu-target {
+    border-bottom: 0px solid #939292 !important;
+}
+
+ul li #menu-item-6209 a.ubermenu-target{
+padding-bottom: 0 !important;
+}
+
+ul li #menu-item-6209 ul.ubermenu-submenu{
+padding-top: 0 !important;
+}
+
+.ubermenu-skin-vanilla .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight{    color: #F28B0C !important;
+    background: transparent;
+cursor:pointer !important;}
+
+.mk-responsive-wrap{
+    overflow-y: visible !important;
+}
+
+.ubermenu, .ubermenu-nav {
+    z-index: 90 !important;
+}
+
+.ubermenu .ubermenu-item-layout-image_left>.ubermenu-target-text {
+    padding-left: 0px;
+}
+
+.ubermenu-main .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target{color:#666666;}
+
+ul.ubermenu-submenu-id-4677 > li > ul > li > a{padding: 15px 5px; !important}
+.ubermenu .ubermenu-item-layout-image_left > .ubermenu-image {
+    float: left !important;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.ubermenu .ubermenu-submenu-type-stack > .ubermenu-item.ubermenu-column-auto {    margin-top: 10px;}
+.ubermenu .ubermenu-item-layout-image_above>.ubermenu-image {
+      border-radius: 50% !important;
+border: 2px solid #939292
+}
+.ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target, .ubermenu .ubermenu-target{padding: 5px 10px !important;}
+
+
+.ubermenu .ubermenu-item-4645 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4644 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4640 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-7422 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-7423 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4641 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4643 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4647 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4646 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text,
+.ubermenu .ubermenu-item-4642 > .ubermenu-target.ubermenu-item-layout-image_left > .ubermenu-target-text {
+    padding-left: 0px !important;
+    float: left;
+    padding-top: 8px !important;
+}
+.ubermenu .ubermenu-active .ubermenu-submenu .ubermenu-submenu-type-stack {
+    float: left !important;
+}
+
+.ubermenu .ubermenu-submenu .ubermenu-submenu-type-stack {
+    width: 100% !important;
+}
+
+.ubermenu .ubermenu-submenu .ubermenu-column-auto {
+    min-width: 100px;
+    width: 100%;
+}
+
+.ubermenu .ubermenu-submenu #menu-item-4678{
+    min-width: 100px;
+    width: 25% !important;
+}
+
+.ubermenu .ubermenu-submenu #menu-item-4682, .ubermenu .ubermenu-submenu #menu-item-4688 {
+    min-width: 100px;
+    width: 37.5% !important;
+}
+.ubermenu .ubermenu-item.ubermenu-item-level-0 {
+    float: none !important;
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+text-align:center;}
+.ubermenu .ubermenu-item-4638, .ubermenu .ubermenu-item-4648, .ubermenu .ubermenu-item-4677, .ubermenu .ubermenu-item-4694, .ubermenu .ubermenu-item-4708{
+    margin-top: auto !important;
+    margin-bottom: 9px !important;}
+
+.ubermenu .ubermenu-item-10519, .ubermenu .ubermenu-item-10520, .ubermenu .ubermenu-item-10521{
+    text-align:center;}
+
+/** UberMenu Custom Tweaks - Mobile **/
+@media screen and (max-width:959px){
+.resp-img-menu{
+
+}
+.sticky-popup-right .popup-header {
+    
+    display: none;
+}
+.desktop-pop{
+display:none !important;
+}
+
+
+.resp-bold a:first-child {
+//font-weight:bold !important;
+//font-size:30px !important;
+}
+
+
+.ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only{
+
+font-weight:bold !important;
+}
+#menu-item-8219 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-6296 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-8309 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+
+#menu-item-6308 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-6314 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-10696 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-9299 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-6345 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-6339 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-6339{
+    border-left: 0px solid #939292 !important;
+    border-right: 0px solid #939292 !important;
+}
+#menu-item-7647 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-6320 >a{    
+ font-weight: bold;
+font-size:18px !important;
+}
+#menu-item-12857 >a{
+ font-weight: bold;
+font-size:18px !important;
+}  
+.ubermenu .ubermenu-target-text{
+font-size:20px !important;
+}
+
+
+
+.mk-responsive-nav li ul {
+  background: black !important;
+}
+ .mk-responsive-nav li ul li a {
+ 
+    color: white !important;
+}
+.aligncenter {
+    text-align: left !important;
+    display: initial !important;
+}
+#menu-item-6345 {
+    border-left: none !important;
+}
+.mk-responsive-nav li ul li a {
+    font-size: 14px !important;
+}
+.mk-responsive-nav li a {
+font-size: 16px !important;
+//font-weight:normal !important;
+}
+
+
+#menu-item-14183 a img.mobile-hide{
+display: none !important;
+}
+
+.ubermenu-skin-vanilla .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight{    color: #F28B0C !important;
+    background: transparent;
+cursor:pointer !important;}
+
+.mk-responsive-wrap{
+    overflow-y: visible !important;
+}
+}
+/* Status: Loaded from Transient */
+
+</style><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.einfochips.com/blog/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="https://www.einfochips.com/blog/wp-content/uploads/2017/06/cropped-cropped-eic-logo-favicon-500-1-180x180-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.einfochips.com/blog/wp-content/uploads/2017/06/cropped-cropped-eic-logo-favicon-500-1-180x180-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.einfochips.com/blog/wp-content/uploads/2017/06/cropped-cropped-eic-logo-favicon-500-1-180x180-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.einfochips.com/blog/wp-content/uploads/2017/06/cropped-cropped-eic-logo-favicon-500-1-180x180-270x270.png" />
+
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+    <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/https://www.einfochips.com/blog/\/crazyblog\/","name":"crazyblog","potentialAction":{"@type":"SearchAction","target":"http:\/\/https://www.einfochips.com/blog/\/crazyblog\/?s={search_term}","query-input":"required name=search_term"}}</script>
+<style> html { display:none; } </style> <script> if (self == top) { document.documentElement.style.display = 'block'; } else { top.location = self.location; } </script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+    <body class="post-template-default single single-post postid-7128 single-format-standard body_class magnification wpb-js-composer js-comp-ver-5.0.1 vc_responsive cookies-not-set" itemscope>
+    <div class="theme-layout ">
+        <style>
+			.mk-header-toolbar {
+    background-color: #212121;
+}
+.mk-header-toolbar {
+    width: 100%;
+    position: relative;
+	height: 35px;
+    line-height: 35px;
+}
+			.header-grid.mk-grid {
+    position: relative;
+}
+.mk-grid {
+    max-width: 1140px;
+}
+.mk-grid {
+    margin: 0 auto;
+}
+.mk-col-1-1, .mk-grid {
+    width: 100%;
+}
+			.mk-toolbar-holder {
+    padding: 0 20px;
+}
+			.mk-toolbar-navigation {
+    float: right !important;
+    margin-right: 0px;
+}
+.mk-toolbar-navigation {
+    display: inline-block;
+    margin-right: 10px;
+    height: 30px;
+}
+			.mk-toolbar-navigation ul {
+    padding: 0;
+    margin: 0;
+				list-style: none;
+}
+			.mk-toolbar-navigation ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 26px;
+}
+			.mk-toolbar-navigation ul li a {
+    font-size: 13px !important;
+}
+.mk-toolbar-navigation ul li a {
+    line-height: 10px;
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid rgba(128,128,128,.2);
+}
+	.mk-toolbar-navigation a, .mk-toolbar-navigation a:hover, .mk-language-nav > a, .mk-header-login .mk-login-link, .mk-subscribe-link, .mk-checkout-btn, .mk-header-tagline a, .header-toolbar-contact a, .mk-language-nav > a:hover, .mk-header-login .mk-login-link:hover, .mk-subscribe-link:hover, .mk-checkout-btn:hover, .mk-header-tagline a:hover {
+    color: #999;
+}
+</style>
+		<div class="mk-header-toolbar">
+
+            <div class="mk-grid header-grid">
+            
+    
+        <div class="mk-toolbar-holder">
+        <nav class="mk-toolbar-navigation"><ul id="menu-header" class="menu">
+<li id="menu-item-69322" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="https://www.einfochips.com/"><span class="meni-item-text"><img class="size-full wp-image-7293 aligncenter1" title="English" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/united_states30x30.png" alt="2Q==" width="26" height="26"></span></a></li>
+<li id="menu-item-69321" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.einfochips.com/fr/"><span class="meni-item-text"><img class="size-full wp-image-7293  aligncenter1" title="French" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/france_30x30.png" alt="2Q==" width="26" height="26"></span></a></li>
+<li id="menu-item-69320" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.einfochips.com/de/"><span class="meni-item-text"><img class="size-full wp-image-7293  aligncenter1" title="German" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/germany_30x30.png" alt="2Q==" width="26" height="26"></span></a></li>
+<li id="menu-item-9020" class="menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="https://www.einfochips.com/blog/"><span class="meni-item-text">Blog</span></a></li>
+<li id="menu-item-6637" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.einfochips.com/media/"><span class="meni-item-text">Media</span></a></li>
+<li id="menu-item-15011" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.einfochips.com/resources/"><span class="meni-item-text">Resources</span></a></li>
+<li id="menu-item-9190" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.einfochips.com/global-presence/"><span class="meni-item-text">Global Presence</span></a></li>
+<li id="menu-item-16933" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.einfochips.com/careers/"><span class="meni-item-text">Careers</span></a></li>
+</ul></nav>
+        </div>   
+
+                </div>
+        
+</div>
+		<div class="header-wrap" id="scrolled">
+			<div class="simple-header simpleheader2 stick2  light  ">
+				<div class="container">
+					<div class="logo"><a href="https://www.einfochips.com/" style="float:left !important; width:auto !important;" title="eInfochips">
+<img src="https://www.einfochips.com/blog/wp-content/uploads/2018/01/EIC-Logo-200x39.png" alt="logo" style=" width:300px; height:59px; "></a> <!--<a style="float: right !important; width: auto !important; vertical-align: middle; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; padding: 12px 10px;" href="https://www.einfochips.com/blog/" title="eInfochips Blog">eInsights
+</a>--></div>
+					<nav class="not">
+						
+<!-- UberMenu [Configuration:main] [Theme Loc:primary-menu] [Integration:auto] -->
+<nav id="ubermenu-main-213-primary-menu" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-213 ubermenu-loc-primary-menu ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-shift ubermenu-trigger-hover_intent ubermenu-skin-vanilla  ubermenu-bar-align-right ubermenu-items-align-right ubermenu-disable-submenu-scroll ubermenu-retractors-responsive"><ul id="ubermenu-nav-main-213-primary-menu" class="ubermenu-nav"><li id="menu-item-4648" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4648 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Services</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4648 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width" ><li class=" ubermenu-autocolumn menu-item-4648-col-0 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4648-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-4648-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4649" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4649 ubermenu-item-header ubermenu-item-level-2 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above" href="https://www.einfochips.com/services/device-engineering/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="80px" height="80px" alt="devices-engineering1"  /><span class="ubermenu-target-title ubermenu-target-text">Device Engineering</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4649 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li id="menu-item-4650" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4650 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/device-engineering/hardware-design/"><span class="ubermenu-target-title ubermenu-target-text">Hardware Design Services</span></a></li><li id="menu-item-4651" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4651 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/device-engineering/embedded-systems-and-software/"><span class="ubermenu-target-title ubermenu-target-text">Embedded Systems &#038; Software</span></a></li><li id="menu-item-4652" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4652 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/device-engineering/multimedia-and-digital-solutions/"><span class="ubermenu-target-title ubermenu-target-text">Multimedia &#038; Digital Solutions</span></a></li><li id="menu-item-7414" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7414 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/device-engineering/image-tuning-service/"><span class="ubermenu-target-title ubermenu-target-text">Image Tuning Service</span></a></li></ul></li></ul></li><li class=" ubermenu-autocolumn menu-item-4648-col-1 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4648-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-4648-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-4653" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4653 ubermenu-item-header ubermenu-item-level-2 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above" href="https://www.einfochips.com/services/digital-engineering/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="80px" height="80px" alt="digital-engineering00004"  /><span class="ubermenu-target-title ubermenu-target-text">Digital Engineering</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4653 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li id="menu-item-4654" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4654 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/digital-engineering/cloud-services-and-devops/"><span class="ubermenu-target-title ubermenu-target-text">Cloud Services and DevOps</span></a></li><li id="menu-item-4655" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4655 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/digital-engineering/iot-solutions-services/"><span class="ubermenu-target-title ubermenu-target-text">IoT Solutions &#038; Services</span></a></li><li id="menu-item-4656" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4656 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/digital-engineering/mobility-solutions-and-services/"><span class="ubermenu-target-title ubermenu-target-text">Mobility Solutions &#038; Services</span></a></li><li id="menu-item-4657" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4657 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/digital-engineering/machine-learning-services/"><span class="ubermenu-target-title ubermenu-target-text">Machine Learning Services</span></a></li><li id="menu-item-4662" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4662 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/digital-engineering/big-data-analytics/"><span class="ubermenu-target-title ubermenu-target-text">Big Data Analytics</span></a></li><li id="menu-item-7415" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7415 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/digital-engineering/remote-device-management/"><span class="ubermenu-target-title ubermenu-target-text">Remote Device Management</span></a></li></ul></li></ul></li><li class=" ubermenu-autocolumn menu-item-4648-col-2 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4648-col-2"><ul class="ubermenu-submenu ubermenu-submenu-id-4648-col-2 ubermenu-submenu-type-stack" ><li id="menu-item-4658" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4658 ubermenu-item-header ubermenu-item-level-2 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above" href="https://www.einfochips.com/services/quality-engineering/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="80px" height="80px" alt="quality-engineering"  /><span class="ubermenu-target-title ubermenu-target-text">Quality Engineering</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4658 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li id="menu-item-4659" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4659 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/quality-engineering/product-and-iot-testing-services/"><span class="ubermenu-target-title ubermenu-target-text">Product and IoT Testing Services</span></a></li><li id="menu-item-8851" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-8851 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/quality-engineering/iot-testing-services/"><span class="ubermenu-target-title ubermenu-target-text">IoT Testing Services</span></a></li><li id="menu-item-4660" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4660 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/quality-engineering/device-to-cloud-qa-automation-services/"><span class="ubermenu-target-title ubermenu-target-text">Device-to-Cloud QA Automation Services</span></a></li><li id="menu-item-4661" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4661 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/quality-engineering/cognitive-qa-services/"><span class="ubermenu-target-title ubermenu-target-text">Cognitive QA Services</span></a></li><li id="menu-item-7416" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7416 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/quality-engineering/mobile-and-web-testing-services/"><span class="ubermenu-target-title ubermenu-target-text">Mobile and Web Testing Services</span></a></li><li id="menu-item-8439" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-8439 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/quality-engineering/quality-process-consulting/"><span class="ubermenu-target-title ubermenu-target-text">Quality Process Consulting</span></a></li></ul></li></ul></li><li class=" ubermenu-autocolumn menu-item-4648-col-3 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4648-col-3"><ul class="ubermenu-submenu ubermenu-submenu-id-4648-col-3 ubermenu-submenu-type-stack" ><li id="menu-item-4663" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4663 ubermenu-item-header ubermenu-item-level-2 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_above" href="https://www.einfochips.com/services/silicon-engineering/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="80px" height="80px" alt="silicon-engineering"  /><span class="ubermenu-target-title ubermenu-target-text">Silicon Engineering</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4663 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li id="menu-item-4664" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4664 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/silicon-engineering/asic-fpga-design/"><span class="ubermenu-target-title ubermenu-target-text">ASIC/FPGA Design &#038; Development</span></a></li><li id="menu-item-4665" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4665 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/silicon-engineering/design-verification-and-validation/"><span class="ubermenu-target-title ubermenu-target-text">Design Verification &#038; Validation</span></a></li><li id="menu-item-4666" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4666 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/services/silicon-engineering/physical-design-dft/"><span class="ubermenu-target-title ubermenu-target-text">Physical Design and DFT</span></a></li></ul></li></ul></li></ul></li><li id="menu-item-4667" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4667 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">IPs &#038;<br>Frameworks</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4667 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width ubermenu-autoclear" ><!-- begin Tabs: [Tabs] 10176 --><li id="menu-item-10176" class="ubermenu-tabs menu-item-10176 ubermenu-item-level-1 ubermenu-column ubermenu-column-full ubermenu-tab-layout-left ubermenu-tabs-show-default"><ul class="ubermenu-tabs-group ubermenu-column ubermenu-column-1-4 ubermenu-submenu ubermenu-submenu-id-10176 ubermenu-submenu-type-auto ubermenu-submenu-type-tabs-group" ><li id="menu-item-7438" class="ubermenu-tab ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-7438 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover" ><span class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/devices-engineering1-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="45px" height="45px" alt="devices-engineering1"  /><span class="ubermenu-target-title ubermenu-target-text">Device Engineering</span></span><ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7438 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel" ><li class=" ubermenu-autocolumn menu-item-7438-col-0 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7438-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-7438-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4676" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4676 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips/reference-designs-evms/"><span class="ubermenu-target-title ubermenu-target-text">Reference Designs &#038; EVMs</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-7438-col-1 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7438-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-7438-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-4674" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4674 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips/reusable-camera-framework/"><span class="ubermenu-target-title ubermenu-target-text">Reusable Camera Framework</span></a></li></ul></li></ul></li><li id="menu-item-7439" class="ubermenu-tab ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-7439 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover" ><span class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/digital-engineering00004-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="45px" height="45px" alt="digital-engineering00004"  /><span class="ubermenu-target-title ubermenu-target-text">Digital Engineering</span></span><ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7439 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel" ><li class=" ubermenu-autocolumn menu-item-7439-col-0 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7439-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-7439-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4670" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4670 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/snapbricks-devops-for-iot/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks DevOps for IoT</span></a></li><li id="menu-item-4673" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4673 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/snapbricks-iot-gateway-framework/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks IoT Gateway Framework</span></a></li><li id="menu-item-4671" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4671 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/snapbricks-iot-device-lifecycle-management/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks IoT Device Lifecycle Management</span></a></li><li id="menu-item-4672" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4672 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/snapbricks-video-management-software-vms/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks Video Management Software</span></a></li><li id="menu-item-8440" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-8440 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/cloud-migration-assessment/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks Cloud Migration Assessment Framework (SCMAF)</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-7439-col-1 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7439-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-7439-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-8441" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-8441 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/devops-maturity-assessment/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks DevOps Maturity Assessment Framework (SDMAF)</span></a></li><li id="menu-item-9721" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-9721 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/cloud-optimization-assessment/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks Cloud Optimization Assessment Framework (SCOAF)</span></a></li><li id="menu-item-10175" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10175 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/rdm-saas-platform/"><span class="ubermenu-target-title ubermenu-target-text">RDM (Remote Device Management) SaaS (Software as a Service) platform</span></a></li><li id="menu-item-9722" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-9722 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/arrow-connect-platform/"><span class="ubermenu-target-title ubermenu-target-text">Arrow Connect Platform</span></a></li></ul></li></ul></li><li id="menu-item-7440" class="ubermenu-tab ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-7440 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover" ><span class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/quality-engineering-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="45px" height="45px" alt="quality-engineering"  /><span class="ubermenu-target-title ubermenu-target-text">Quality Engineering</span></span><ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7440 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel" ><li class=" ubermenu-autocolumn menu-item-7440-col-0 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7440-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-7440-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4675" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4675 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/snapbricks-test-automation-framework/"><span class="ubermenu-target-title ubermenu-target-text">Snapbricks Test Automation Framework</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-7440-col-1 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-item-type-column ubermenu-column-id-7440-col-1"></li></ul></li><li id="menu-item-7441" class="ubermenu-tab ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-7441 ubermenu-item-auto ubermenu-column ubermenu-column-full ubermenu-has-submenu-drop" data-ubermenu-trigger="mouseover" ><span class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/silicon-engineering-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" width="45px" height="45px" alt="silicon-engineering"  /><span class="ubermenu-target-title ubermenu-target-text">Silicon Engineering</span></span><ul class="ubermenu-tab-content-panel ubermenu-column ubermenu-column-3-4 ubermenu-submenu ubermenu-submenu-id-7441 ubermenu-submenu-type-auto ubermenu-submenu-type-tab-content-panel" ><li class=" ubermenu-autocolumn menu-item-7441-col-0 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7441-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-7441-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-5191" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-5191 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips/verification-ips/"><span class="ubermenu-target-title ubermenu-target-text">Verification IPs</span></a></li><li id="menu-item-6200" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-6200 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips/optix-physical-design-framework/"><span class="ubermenu-target-title ubermenu-target-text">OptiX – Physical Design Framework</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-7441-col-1 ubermenu-item-level-3 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7441-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-7441-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-7442" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7442 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/perfmon-performance-analysis-monitor/"><span class="ubermenu-target-title ubermenu-target-text">PerfMon – Performance Analysis Monitor</span></a></li><li id="menu-item-7443" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7443 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-4 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/ips-frameworks/dft-automated-execution-and-reporting-tool/"><span class="ubermenu-target-title ubermenu-target-text">DAeRT (Dft Automated execution and Reporting Tool)</span></a></li></ul></li></ul></li></ul></li><!-- end Tabs: [Tabs] 10176 --></ul></li><li id="menu-item-4638" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4638 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/domains/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Domains</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4638 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width" ><li id="menu-item-7421" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-7421 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#"><span class="ubermenu-target-title ubermenu-target-text">Championing Innovation Driven Business</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-7421 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li class=" ubermenu-autocolumn menu-item-7421-col-0 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7421-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-7421-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4645" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4645 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/aerospace/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/Aerospace.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/Aerospace.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Aerospace-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Aerospace-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Aerospace-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="Aerospace"  /><span class="ubermenu-target-title ubermenu-target-text">Aerospace</span></a></li><li id="menu-item-4644" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4644 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/automotive/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/Automotive.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/Automotive.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Automotive-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Automotive-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Automotive-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="Automotive"  /><span class="ubermenu-target-title ubermenu-target-text">Automotive</span></a></li><li id="menu-item-4640" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4640 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/home-automation/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/home-automation.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/home-automation.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/home-automation-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/home-automation-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/home-automation-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="home-automation"  /><span class="ubermenu-target-title ubermenu-target-text">Home Automation</span></a></li><li id="menu-item-7422" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7422 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/industrial-automation/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/industrial-automation.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/industrial-automation.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/industrial-automation-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/industrial-automation-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/industrial-automation-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="industrial-automation"  /><span class="ubermenu-target-title ubermenu-target-text">Industrial Automation</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-7421-col-1 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7421-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-7421-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-7423" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7423 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/consumer-electronics/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/consumer-electronics.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/consumer-electronics.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/consumer-electronics-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/consumer-electronics-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/consumer-electronics-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="consumer-electronics"  /><span class="ubermenu-target-title ubermenu-target-text">Consumer Electronics</span></a></li><li id="menu-item-4641" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4641 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/medical-devices/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/medical-devices-2.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/medical-devices-2.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/medical-devices-2-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/medical-devices-2-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/medical-devices-2-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="medical-devices-2"  /><span class="ubermenu-target-title ubermenu-target-text">Medical Devices</span></a></li><li id="menu-item-4643" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4643 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/retail/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/retail.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/retail.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/retail-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/retail-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/retail-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="retail"  /><span class="ubermenu-target-title ubermenu-target-text">Retail</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-7421-col-2 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-7421-col-2"><ul class="ubermenu-submenu ubermenu-submenu-id-7421-col-2 ubermenu-submenu-type-stack" ><li id="menu-item-4647" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4647 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/semiconductor/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/Semiconductor-1.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/Semiconductor-1.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Semiconductor-1-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Semiconductor-1-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/Semiconductor-1-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="Semiconductor-1"  /><span class="ubermenu-target-title ubermenu-target-text">Semiconductor</span></a></li><li id="menu-item-4646" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4646 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/security-surveillance-and-access-control/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/security-1.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/security-1.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/security-1-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/security-1-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/security-1-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="security-1"  /><span class="ubermenu-target-title ubermenu-target-text">Security, Survelliance <br>&#038; Access Control</span></a></li><li id="menu-item-4642" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4642 ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-image_left" href="https://www.einfochips.com/domains/transport-and-logistics/"><img class="ubermenu-image ubermenu-image-size-full" src="https://www.einfochips.com/blog/wp-content/uploads/2019/01/transport-and-logistics.jpg" srcset="https://www.einfochips.com/blog/wp-content/uploads/2019/01/transport-and-logistics.jpg 400w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/transport-and-logistics-150x150.jpg 150w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/transport-and-logistics-300x300.jpg 300w, https://www.einfochips.com/blog/wp-content/uploads/2019/01/transport-and-logistics-200x200.jpg 200w" sizes="(max-width: 400px) 100vw, 400px" width="36px" height="36px" alt="transport-and-logistics"  /><span class="ubermenu-target-title ubermenu-target-text">Transport and Logistics</span></a></li></ul></li></ul></li></ul></li><li id="menu-item-10518" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-10518 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Reference<br>Designs</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-10518 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width" ><li class=" ubermenu-autocolumn menu-item-10518-col-0 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-10518-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-10518-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-10519" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10519 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/device-partnerships/nvidia/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" title="NVIDIA" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/nvidia-logo.png" alt="2Q==" width="145" height="38" /></span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-10518-col-1 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-10518-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-10518-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-10520" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10520 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/device-partnerships/nxp/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" title="NXP" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/nxp-logo.png" alt="2Q==" width="145" height="38" /></span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-10518-col-2 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-3 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-10518-col-2"><ul class="ubermenu-submenu ubermenu-submenu-id-10518-col-2 ubermenu-submenu-type-stack" ><li id="menu-item-10521" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10521 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://eragon.einfochips.com/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" title="Qualcomm" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/qulcom.png" alt="2Q==" width="145" height="38" /></span></a></li></ul></li></ul></li><li id="menu-item-4677" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4677 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Partnerships</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4677 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width" ><li id="menu-item-4678" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4678 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><span class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Digital Partnerships</span></span><ul class="ubermenu-submenu ubermenu-submenu-id-4678 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li id="menu-item-4679" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4679 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/software-partnerships/microsoft/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/microsoft.png" alt="2Q==" width="165 height="50" /></span></a></li><li id="menu-item-6228" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-6228 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/software-partnerships/amazon-web-services/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2018/03/amazon-web-services.png" alt="2Q==" width="165" height="50" /></span></a></li></ul></li><li id="menu-item-4682" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4682 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><span class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Device Partnerships</span></span><ul class="ubermenu-submenu ubermenu-submenu-id-4682 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li class=" ubermenu-autocolumn menu-item-4682-col-0 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4682-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-4682-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4683" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4683 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/system-partnerships/arm/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/arm.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-4684" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4684 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/system-partnerships/intel/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/intel.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-4685" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4685 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/system-partnerships/nxp/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/nxp-logo.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-4686" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4686 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://eragon.einfochips.com/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/qulcom.png" alt="2Q==" width="145" height="38" /></span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-4682-col-1 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4682-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-4682-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-4687" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4687 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/system-partnerships/texas-instruments/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/texas2.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-7434" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7434 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/device-partnerships/analog-devices/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" title="Texas Instruments" src="https://s3-us-west-2.amazonaws.com/einfochips-web-production/wp-content/uploads/2019/01/04064524/analog-device-menu.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-10533" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-10533 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/device-partnerships/nvidia/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" title="NVIDIA" src="https://www.einfochips.com/blog/wp-content/uploads/2020/05/nvidia-logo.png" alt="2Q==" width="125" height="33" /></span></a></li></ul></li></ul></li><li id="menu-item-4688" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4688 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack" ><span class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Silicon Partnerships</span></span><ul class="ubermenu-submenu ubermenu-submenu-id-4688 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li class=" ubermenu-autocolumn menu-item-4688-col-0 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4688-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-4688-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4689" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4689 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/silicon-partnerships/cadence/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/candea.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-4692" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4692 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/silicon-partnerships/xilinx/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/xilinx.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-4690" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4690 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/silicon-partnerships/microsemi/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/micromosie.png" alt="2Q==" width="145" height="38" /></span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-4688-col-1 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-2 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4688-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-4688-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-6217" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-6217 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/silicon-partnerships/mentor/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2018/02/mentor.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-4691" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4691 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/silicon-partnerships/synopsys/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="/wp-content/uploads/2016/10/synopsys.png" alt="2Q==" width="145" height="38" /></span></a></li><li id="menu-item-7435" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7435 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/partnerships-and-alliances/silicon-partnerships/intel-fpga-design-solultions-network-dsn/"><span class="ubermenu-target-title ubermenu-target-text"><img class="size-full wp-image-7293 aligncenter" src="https://www.einfochips.com/wp-content/uploads/2018/06/intel-fpga-partner.png" alt="Intel FPGA Design Solutions Network (DSN)" width="145" height="38" /></span></a></li></ul></li></ul></li></ul></li><li id="menu-item-4694" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4694 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">About Us</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-4694 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width" ><li id="menu-item-4696" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-parent-item ubermenu-item-4696 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-full ubermenu-has-submenu-stack" ><span class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only"><span class="ubermenu-target-title ubermenu-target-text">Towards a Better Tommorrow</span></span><ul class="ubermenu-submenu ubermenu-submenu-id-4696 ubermenu-submenu-type-auto ubermenu-submenu-type-stack" ><li class=" ubermenu-autocolumn menu-item-4696-col-0 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4696-col-0"><ul class="ubermenu-submenu ubermenu-submenu-id-4696-col-0 ubermenu-submenu-type-stack" ><li id="menu-item-4697" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4697 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/company-overview/"><span class="ubermenu-target-title ubermenu-target-text">Company Overview</span></a></li><li id="menu-item-4698" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4698 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/leadership-team/"><span class="ubermenu-target-title ubermenu-target-text">Leadership Team</span></a></li><li id="menu-item-4699" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4699 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/awards-and-accolades/"><span class="ubermenu-target-title ubermenu-target-text">Awards &#038; Accolades</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-4696-col-1 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4696-col-1"><ul class="ubermenu-submenu ubermenu-submenu-id-4696-col-1 ubermenu-submenu-type-stack" ><li id="menu-item-4701" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4701 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://www.eitra.org/"><span class="ubermenu-target-title ubermenu-target-text">Academia &#038; Training</span></a></li><li id="menu-item-4702" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4702 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/social-responsibility/"><span class="ubermenu-target-title ubermenu-target-text">Social Responsibility</span></a></li><li id="menu-item-4704" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4704 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/media/"><span class="ubermenu-target-title ubermenu-target-text">Media</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-4696-col-2 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4696-col-2"><ul class="ubermenu-submenu ubermenu-submenu-id-4696-col-2 ubermenu-submenu-type-stack" ><li id="menu-item-4705" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4705 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/resources/"><span class="ubermenu-target-title ubermenu-target-text">Resources</span></a></li><li id="menu-item-7436" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-7436 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/amplified-outsourcing-model/"><span class="ubermenu-target-title ubermenu-target-text">Amplified Outsourcing Model</span></a></li><li id="menu-item-4706" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4706 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/global-presence/"><span class="ubermenu-target-title ubermenu-target-text">Global Presence</span></a></li></ul></li><li class=" ubermenu-autocolumn menu-item-4696-col-3 ubermenu-item-level-2 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-4696-col-3"><ul class="ubermenu-submenu ubermenu-submenu-id-4696-col-3 ubermenu-submenu-type-stack" ><li id="menu-item-4707" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4707 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/careers/"><span class="ubermenu-target-title ubermenu-target-text">Careers</span></a></li><li id="menu-item-4700" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4700 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/our-clients/"><span class="ubermenu-target-title ubermenu-target-text">Clients</span></a></li><li id="menu-item-4703" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-home ubermenu-item-4703 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-3 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/blog/"><span class="ubermenu-target-title ubermenu-target-text">Blog</span></a></li></ul></li></ul></li></ul></li><li id="menu-item-4708" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-4708 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://www.einfochips.com/contact-us/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Contact Us</span></a></li></ul></nav>
+<!-- End UberMenu -->
+					</nav>
+					
+					
+											<form method="get" action="https://www.einfochips.com/blog/">
+							<button type="submit"><i class="fa fa-search"></i></button>
+							<input type="text" placeholder="Enter Your Search" name="s" />
+						</form>
+									</div>
+			</div>
+		</div>
+			
+		<div class="responsive-header">
+			        
+			<div class="responsivebar">
+				<div class="responsive-logo">	
+				<a href="https://www.einfochips.com/" style="float:left !important; width:auto !important;" title="eInfochips">
+<img src="https://www.einfochips.com/blog/wp-content/uploads/2018/01/EIC-Logo-200x39.png" alt="logo" style=" width:300px; height:59px; "></a> <!--<a style="float: right !important; width: auto !important; vertical-align: middle; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; padding: 12px 10px;" href="https://www.einfochips.com/blog/" title="eInfochips Blog">eInsights
+</a>-->
+					
+				</div>
+				<div class="responsive-btns">
+											<a class="open-search" href="#" title=""><i class="fa fa-search"></i></a>
+										<a class="open-menu" href="#" title=""><i class="fa fa-align-justify"></i></a>
+				</div><!-- Responsive Buttons -->
+									<div class="responsive-search">
+						<form method="get" action="https://www.einfochips.com/blog/">
+							<input type="text" placeholder="Search here" name="s"/>
+							<button type="submit"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				
+				<div class="responsive-menu ">
+					<span class="close-this"><i class="fa fa-remove"></i></span>
+					<div class="responsive-logo"><a href="https://www.einfochips.com/" style="float:left !important; width:auto !important;" title="eInfochips">
+<img src="https://www.einfochips.com/blog/wp-content/uploads/2018/01/EIC-Logo-200x39.png" alt="logo" style=" width:300px; height:59px; "></a> <!--<a style="float: right !important; width: auto !important; vertical-align: middle; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; padding: 12px 10px;" href="https://www.einfochips.com/blog/" title="eInfochips Blog">eInsights
+</a>--></div>
+					
+					
+				</div><!-- Responsive Menu -->
+			</div>
+					</div>
+
+		
+	<div class="mainheadb00g">
+		<div class="pagetop" style="background:url(https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-banner.jpg)">
+			
+			</div>
+			<div class="page-name">
+				<div class="container">
+					<h1>
+						<span>How to Develop Machine Learning Applications for Business</span>
+					</h1>
+										<ul class="meta" style="display: block !important;" ><li style="color:#000;">Last modified: December 11, 2019</li>
+													<li style="color:#000;">by <a href="https://www.einfochips.com/blog/author/anand-borad/" title="">Anand Borad</a></li>
+																									<li style="color:#000;"><a href="https://www.einfochips.com/blog/category/technology/ai-machine-learning/" title="View all posts in AI &amp; Machine Learning">AI &amp; Machine Learning</a></li>
+												<li style="color:#000;"><span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix">Reading Time:</span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix">minutes</span></span></li>
+					</ul>
+									<ul class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><li><a itemprop="url"  href="https://www.einfochips.com/blog/"><span itemprop="title">Home</span></a></li><li><a itemprop="url"  href="https://www.einfochips.com/blog/category/technology/ai-machine-learning/"><span itemprop="title">AI &amp; Machine Learning </span></a></li><li><a itemprop="url"  href="javascript:void(0)"><span itemprop="title">How to Develop Machine Learning Applications for Business</span></a></li></ul>
+								<div class="single-quote">
+					<div class="quote-box" style=" ">
+						<blockquote style="padding: 0px 0px 10px !important;">
+							<p style="padding-top: 15px; padding-left:0px;">
+								Today, most of the businesses rely on machine learning (ML) applications to understand revenue opportunities, identify market trends, predict customer behavior and pricing fluctuations as well as take the right business decisions. Developing these machine learning applications require following diligent planning and steps. Problem framing, data cleaning, feature engineering, model training, and improving model accuracy are a few of the steps that can be followed for developing machine learning applications.							</p></blockquote>
+					</div>	
+					<ul class="short-info">
+						<li><i class="fa fa-comments"></i> 0</li>
+						<li><i class="fa fa-eye"></i> 0</li>
+						<li>
+							<a class="like-this " id="like_dislike"  href="javascript:void(0)" title="">
+																	<i class="fa fa-heart-o"></i> 
+																<span>0</span> 
+								likes							</a>
+						</li>
+											</ul>
+				</div>
+				
+				
+				
+					
+					<div class="pagename11" style="margin-top:15px !important; margin-bottom:60px !important; display:none !important; " >
+		<span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix">Reading Time:</span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix">minutes</span></span></div>
+
+					<div style="margin-top:60px !important; display:none !important; margin-bottom:15px !important; " class="vc_btn3-container vc_btn3-center vc_custom_1495542558485">
+		<a href="#readmore" style="" class="ctarm" title="Read the article" ><i class="vc_btn3-icon fa fa-arrow-down"></i> Read the article </a>&nbsp; [responsivevoice_button buttontext='Hear the article'  voice='US English Female']
+
+
+</div>
+					
+					
+
+
+</div>
+
+				
+
+
+				</div>
+		</div>
+</div><!-- Page Top -->
+	
+	<section>
+		<div class="block" id="readmore">
+			
+			<div class="container container1">
+				<div class="row">
+										<div class="col-md-7 paddright1 col-sm-push-1 column">
+	    <div class="default-template  post-7128 post type-post status-publish format-standard has-post-thumbnail hentry category-ai-machine-learning" itemscope itemtype="http://schema.org/Article">
+		
+				<div class="mfn-gallery">
+			<div class="at-above-post addthis_tool" data-url="https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/"></div><p>Machine learning being a subset of artificial intelligence technology helps make sense out of historical data as well as helps in decision making. Machine learning is a technique set to find patterns in data and build mathematical models around those findings.</p>
+<p>Once we build and train a machine learning algorithm to form a mathematical representation of these data, we can use that model to predict future data. <em>For example, in retail, based on historical purchase data, we can predict whether a user will buy a particular product or not using a learned algorithm.</em></p>
+<h3>Types of machine learning algorithms</h3>
+<p>A machine learning algorithm can be divided into three categories:</p>
+<ol>
+<li>Supervised machine learning</li>
+<li>Unsupervised machine learning</li>
+<li>Reinforcement machine learning</li>
+</ol>
+<p>In businesses, we mostly use supervised machine learning algorithms for performing tasks like categorical classification (binary and multiclass), activity monitoring, predicting a numerical value, and a lot more. We also use unsupervised machine learning techniques for a few applications like grouping or clustering, dimensionality reduction, and anomaly detection.</p>
+<div class="relatedblog">
+<p class="rbtitle"><strong>RELATED BLOG</strong></p>
+<p class="rbp"><a title="Healthcare and Machine Learning: The Future with Possibilities" href="https://www.einfochips.com/blog/healthcare-and-machine-learning-the-future-with-possibilities/?utm_source=EIBlog&amp;utm_medium=BlogPostAnand&amp;utm_campaign=related-blog" target="_blank" rel="noopener noreferrer">Healthcare and Machine Learning: The Future with Possibilities</a></p>
+<div class="clearfix"></div>
+</div>
+<p>While both these approaches have many practical implications for businesses, reinforcement learning (RL) has a very limited business application like path optimization for the transit industry. However, RL is going through extensive research and slowly take over supervised and unsupervised learning. And believe me, RL holds the future for businesses a lot and is super powerful.</p>
+<h3>A case in point</h3>
+<p><em><strong>Why is reinforcement learning so powerful?</strong></em></p>
+<p><em>Here is a story of AlphaGo and AlphaGoZero.</em></p>
+<p><em>Go is the world’s oldest board game. It is so complex that if you calculate all the combination from the empty board, it will have combinations of more than the total number of particles in the universe.</em></p>
+<p><em>DeepMind built AlphaGo algorithm based on reinforcement algorithms that learned by analyzing games and playing against a real player. In Oct 2015, it won against a professional player named Fan Hui by 5-0.</em></p>
+<p><em>In March 2016, AlphaGo was set to take on the Go champion named Lee Sedol. Every Go expert was sure that it would be very easy for Lee Sedol to beat AlphaGo by 5-0.</em></p>
+<p><em>Deep Mind invited Fan Hui again to check how good AlphaGo became a trained player with reinforcement learning algorithms at that time and how much it had improved. During the inspection, Fan Hui found a major weakness in AlphaGo, but there was no time to correct it.</em></p>
+<p><em>To everyone’s surprise, AlphaGo won the game by 4-1.  Lee got a clue about the weakness of AlphaGo and won the fourth round against AlphaGo. However, AlphaGo improved its ability with only one game and won the fifth round against Lee despite its weakness.</em></p>
+<p><em>AlphaGo was taught the Go game using video feed. The next version named AlphaGoZero learned the game just by playing against itself and feeding basic rules. In just three days of training, it surpassed the ability of AlphaGo, which won against the world champion Lee Sedol.</em></p>
+<p><em>Although this was achieved by reinforcement learning, inside it, they used deep convolutional neural networks (CNN) to process images. CNN is the type of deep learning algorithms that are widely used in business appli</em>cations.</p>
+<h3>When to use machine learning</h3>
+<p>Machine learning is a powerful tool, but it should not be used frequently for it is computationally extensive and <strong>needs training and updating of models on a regular basis</strong>. It is sometimes better to rely on conventional software than machine learning.</p>
+<p>For certain use cases, we can build a robust solution without machine learning, which can rely on rules, simple calculations or pre-determined processes for results and decision-making. These things are easily programmable and do not need any exhaustive learning. Hence, experts suggest using machine learning in certain special cases and scenarios:</p>
+<div class="relatedblog">
+<p class="rbtitle"><strong>RELATED BLOG</strong></p>
+<p class="rbp"><a title="5 Ways to Utilize Artificial Intelligence in Retail for Enhancing In-store Customer Experience" href="https://www.einfochips.com/blog/5-ways-to-utilize-artificial-intelligence-in-retail-for-enhancing-in-store-customer-experience/?utm_source=EIBlog&amp;utm_medium=BlogPostAnand&amp;utm_campaign=related-blog" target="_blank" rel="noopener noreferrer">5 Ways to Utilize Artificial Intelligence in Retail for Enhancing In-store Customer Experience</a></p>
+<div class="clearfix"></div>
+</div>
+<p>There are two scenarios where we can use machine learning solutions:</p>
+<ol>
+<li>Inability to code the rules:</li>
+</ol>
+<ul>
+<li>Tasks which cannot be done by deploying a set of rules</li>
+<li>Difficulty identifying and implementing rules</li>
+<li>Multiple rules to go hand in hand, which are difficult to code</li>
+<li>Other factors making it difficult to code the rules based on those factors</li>
+<li>Overlapping rules rendering inaccurate codes</li>
+</ul>
+<ol start="2">
+<li>Data scale is high:</li>
+</ol>
+<ul>
+<li>When you can define rules from a few samples, but it is difficult to scan millions of data sets for a better prediction.</li>
+</ul>
+<p>Machine learning can be used for both the above scenarios as it brings out a mathematical model containing rules and can solve large-scale problems.</p>
+<h2>Steps for developing machine learning applications</h2>
+<p>Building a machine learning application is an iterative process and follows a set of sequences. Below are the steps involved in for developing machine learning applications:</p>
+<h4>Problem framing</h4>
+<p>This first step is to frame a machine learning problem in terms of what we want to predict and what kind of observation data we have to make those predictions. Predictions are generally a label or a target answer; it may be a yes/no label (binary classification) or a category (multiclass classification) or a real number (regression).</p>
+<h4>Collect and clean the data</h4>
+<p>Once we frame the problem and identify what kind of historical data we have for prediction modeling, the next step is to collect the data from a historical database or from open datasets or from any other data sources.</p>
+<p>Not all the collected data is useful for a machine learning application. We may need to clean the irrelevant data, which may affect the accuracy of prediction or may take additional computation without aiding in the result.</p>
+<h4>Prepare data for ML application</h4>
+<p>Once the data ready for the machine learning algorithm, we need to transform the data in the form that the ML system can understand. Machines cannot understand an image or text. We need to convert it into numbers. It also requires building data pipeline depending on the machine learning application needs.</p>
+<h4>Feature engineering</h4>
+<p>Sometimes a raw data may not reveal all the facts about the targeted label. Feature engineering is a technique to create additional features combining two or more existing features with an arithmetic operation that is more relevant and sensible.</p>
+<div class="downloadcs">
+<p class="dcstitle"><strong>DOWNLOAD WHITE PAPER</strong></p>
+<p class="dcs">A Complete Guide to Chatbot Development – From Tools to Best Practices</p>
+<p><a title="A Complete Guide to Chatbot Development – From Tools to Best Practices" href="https://www.einfochips.com/resources/general/a-complete-guide-to-chatbot-development-from-tools-to-best-practices/?utm_source=EIBlog&amp;utm_medium=BlogPostAnand&amp;utm_campaign=related-whitepaper" target="_blank" rel="noopener noreferrer">Download Now</a></p>
+<div class="clearfix"></div>
+</div>
+<p>For example: In a compute engine, it is common for RAM and CPU usage to reach 95%, but something is messy when RAM usage is at 5% and CPU is at 93%. We can use a ration of RAM to CPU usage as a new feature, which may provide a better prediction. If we are using deep learning, it will automatically build features itself; we do not need explicit feature engineering.</p>
+<h4>Training a model</h4>
+<p>Before we train the model, we need to split the data into training and evaluation sets, as we need to monitor how well a model generalizes to unseen data. Now, the algorithm will learn the pattern and mapping between the feature and the label.</p>
+<p>The learning can be linear or non-linear depending upon the activation function and algorithm. There are a few hyper parameters that affect the learning as well as training time such as learning rate, regularization, batch size, number of passes (epoch), optimization algorithm, and more.</p>
+<h4>Evaluating and improving model accuracy</h4>
+<p>Accuracy is a measure to know how good or bad a model is doing on an unseen validation set. Based on the current learnings, we need to evaluate how a model is doing on a validation set. Depending on the application, we can use different accuracy metrics. For e.g. for classification we may use, precision and recall or F1 Score; for object detection, we may use IoU (interaction over union).</p>
+<p>If a model is not doing well, we may classify the problem in either of class 1) over-fitting and 2) under-fitting.</p>
+<p>When a model is doing well on the training data, but not on the validation data, it is the over-fitting scenario. Somehow model is not generalizing well. The solution for the problem includes regularizing algorithm, decreasing input features, eliminating the redundant feature, and using resampling techniques like k-fold cross-validation.</p>
+<p>In the under-fitting scenario, a model does poor on both training and validation dataset. The solution to this may include training with more data, evaluating different algorithms or architectures, using more number of passes, experimenting with learning rate or optimization algorithm.</p>
+<p>After an iterative training, the algorithm will learn a model to represent those labels from input data and this model can be used to predict on the unseen data.</p>
+<div class="downloadcs">
+<p class="dcstitle"><strong>DOWNLOAD WHITE PAPER</strong></p>
+<p class="dcs">Wind Turbine Fault Detection Using Machine Learning and Neural Networks</p>
+<p><a title="Wind Turbine Fault Detection Using Machine Learning and Neural Networks" href="https://www.einfochips.com/resources/publications/wind-turbine-fault-detection-using-machine-learning-and-neural-networks/?utm_source=EIBlog&amp;utm_medium=BlogPostAnand&amp;utm_campaign=related-whitepaper" target="_blank" rel="noopener noreferrer">Download Now</a></p>
+<div class="clearfix"></div>
+</div>
+<h4>Serving with a model in production</h4>
+<p>After training, the model will do well on the unseen data and now it can be used for prediction. This is the most important thing for businesses. This is also one of the most difficult phases for business-oriented machine learning applications. In this phase, we deploy the model in production for the prediction on real-world data to derive the results.</p>
+<h3>Wrapping up</h3>
+<p>Machine learning is the enabler technology, but if we do not follow a proper plan and execution for training and learning of models on algorithms, we may fail. Hence, it is always a great idea for businesses that want to build complex machine learning systems to hire AI and Machine learning service providers and focus on their core competency.</p>
+<p>eInfochips provides Artificial Intelligence &amp; Machine Learning offerings to help organizations build highly-customized solutions running on advanced machine learning algorithms. We help companies integrate these algorithms with image &amp; video analytics, as well as with emerging technologies such as augmented reality &amp; virtual reality to deliver utmost customer satisfaction and gain a competitive edge over others. Know more about our <a href="https://www.einfochips.com/services/digital-engineering/machine-learning-services/?utm_source=EIBlog&amp;utm_medium=BlogPostAnand&amp;utm_campaign=blog-linking">machine learning expertise</a>.</p>
+<!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="https://www.einfochips.com/blog/how-to-develop-machine-learning-applications-for-business/"></div><!-- AddThis Share Buttons generic via filter on the_content -->		</div>
+		        <div class="footer-links">
+								
+		        </div><!-- Social Links  -->		
+
+		
+				
+		
+		<!--<div class="about-the-author">
+				<h4 class="simple-heading1">Enjoyed this article? Don't forget to share</h4>
+				<div class="author-info" style="text-align: center">
+					 Go to www.addthis.com/dashboard to customize your tools  <div style="text-align: center" class="addthis_inline_share_toolbox"></div>
+				</div>
+				<div class="clearfix"></div>
+				
+		</div>-->
+		
+					<div class="about-the-author">
+				<h4 class="simple-heading">ABOUT THE AUTHOR</h4>
+				<div class="author-info" style="margin-bottom: 45px !important; border-bottom: 3px solid #f4f4f4; padding-bottom: 35px;">
+					<img alt='' src='https://www.einfochips.com/blog/wp-content/uploads/2018/01/Anand-Borad-150x150.jpg' class='avatar avatar-160 photo' height='160' width='160' />					<div class="author-detail">
+						<h4><a   href="https://www.einfochips.com/blog/author/anand-borad/" title="">Anand Borad</a></h4>
+						<p>Anand Borad works as senior marketing executive and takes care of digital and content marketing efforts for Medical devices, Connected Retail &amp; Healthcare and New product development initiatives. He enjoys learning newer technologies and adopting it into everyday marketing practices.</p>
+						<div class="author-media">
+													</div>
+					</div>
+				</div>
+			</div><!-- About The Author -->
+				
+		
+
+		
+					<div class="related-posts">
+				<h4 class="simple-heading">RELATED POSTS</h4>
+				<div class="related-carousel">
+								<div class="related-post">
+				<div class="post-thumb">
+					<a href="https://www.einfochips.com/blog/immersive-technologies-are-making-us-superheroes/" title="Immersive Technologies Are Making Us Superheroes!"><img width="376" height="350" src="https://www.einfochips.com/blog/wp-content/uploads/2020/08/immersive-technologies-are-making-us-superheroes-featured-376x350.jpg" class="attachment-crazyblog_376x350 size-crazyblog_376x350 wp-post-image" alt="Immersive technologies are making us superheroes" decoding="async" /></a>
+				</div>
+				<div class="related-post-name">
+					<h4><a href="https://www.einfochips.com/blog/immersive-technologies-are-making-us-superheroes/" title="">Immersive Technologies Are Making Us Superheroes!</a></h4>
+					<ul class="meta">
+						<li><a href="" title="">August 13, 2020</a></li>
+						<li>By <a href="https://www.einfochips.com/blog/author/nikunjpatel/" title="">Nikunj Patel</a></li>
+					</ul>
+				</div>
+			</div><!-- Related Post -->
+						<div class="related-post">
+				<div class="post-thumb">
+					<a href="https://www.einfochips.com/blog/5-ways-ai-chatbots-can-transform-the-telecom-industry/" title="5 Ways AI Chatbots can transform the Telecom Industry"><img width="376" height="350" src="https://www.einfochips.com/blog/wp-content/uploads/2019/04/3-ways-ai-chatbots-can-transform-the-telecom-industry-featured-376x350.jpg" class="attachment-crazyblog_376x350 size-crazyblog_376x350 wp-post-image" alt="3 Ways AI Chatbots can Transform the Telecom Industry" decoding="async" loading="lazy" /></a>
+				</div>
+				<div class="related-post-name">
+					<h4><a href="https://www.einfochips.com/blog/5-ways-ai-chatbots-can-transform-the-telecom-industry/" title="">5 Ways AI Chatbots can transform the Telecom Industry</a></h4>
+					<ul class="meta">
+						<li><a href="" title="">April 30, 2019</a></li>
+						<li>By <a href="https://www.einfochips.com/blog/author/smishad-thomas/" title="">Smishad Thomas</a></li>
+					</ul>
+				</div>
+			</div><!-- Related Post -->
+						<div class="related-post">
+				<div class="post-thumb">
+					<a href="https://www.einfochips.com/blog/digital-transformation-in-agriculture/" title="Digital Transformation in Agriculture"><img width="376" height="350" src="https://www.einfochips.com/blog/wp-content/uploads/2021/12/Digital_Transformation_in_Agriculture_Blog_Fetaured_Image-376x350.jpg" class="attachment-crazyblog_376x350 size-crazyblog_376x350 wp-post-image" alt="Digital Transformation in Agriculture" decoding="async" loading="lazy" /></a>
+				</div>
+				<div class="related-post-name">
+					<h4><a href="https://www.einfochips.com/blog/digital-transformation-in-agriculture/" title="">Digital Transformation in Agriculture</a></h4>
+					<ul class="meta">
+						<li><a href="" title="">December 7, 2021</a></li>
+						<li>By <a href="https://www.einfochips.com/blog/author/nirupam-kulkarni/" title="">Nirupam Kulkarni</a></li>
+					</ul>
+				</div>
+			</div><!-- Related Post -->
+							</div><!-- Related Carousel -->
+			</div><!-- Related Posts -->
+		
+		
+    </div><!-- Default Template -->
+</div>											<aside class="col-md-3 column sidebar  col-sm-push-1 right-sidebar">
+							<div id="text-7" class="widget_text"><div class="widget"><div class="widget-title"><h4>Talk to an Expert</h4></div>			<div class="textwidget"><div role="form" class="wpcf7" id="wpcf7-f10178-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blog/how-to-develop-machine-learning-applications-for-business/#wpcf7-f10178-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="10178" />
+<input type="hidden" name="_wpcf7_version" value="5.6.4" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f10178-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<p><span class="wpcf7-form-control-wrap" data-name="Name"><input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span><br />
+<span class="wpcf7-form-control-wrap" data-name="email-834"><input type="email" name="email-834" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Business Email" /></span><br />
+<span class="wpcf7-form-control-wrap" data-name="Company"><input type="text" name="Company" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Company" /></span><br />
+<span class="wpcf7-form-control-wrap" data-name="tel-224"><input type="tel" name="tel-224" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone Number" /></span><br />
+<span class="wpcf7-form-control-wrap" data-name="textarea-584"><textarea name="textarea-584" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span><br />
+<span class="wpcf7-form-control-wrap" data-name="checkbox-864"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><input type="checkbox" name="checkbox-864[]" value="I have read and understand the Privacy Policy" /><span class="wpcf7-list-item-label">I have read and understand the Privacy Policy</span></span></span></span> By submitting this form, I acknowledge that I have read and understand the <a style="color:#F68712;" href="https://www.einfochips.com/privacy-policy/" target="_top" rel="noopener noreferrer">Privacy Policy</a></p>
+<p style="text-align: center;" class="my_class_input"><input type="submit" value="Let’s Connect" class="wpcf7-form-control has-spinner wpcf7-submit" id="csub1" /></p>
+<p style="margin: 0 !important; display: none;"><span class="wpcf7-form-control-wrap dynamichidden-187"><input type="hidden" name="dynamichidden-187" value="How to Develop Machine Learning Applications for Business" size="40" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" aria-invalid="false" /></span></p>
+<p><span id="wpcf7-6379189a16b0c-wrapper" class="wpcf7-form-control-wrap namespan-wrap" style="display:none !important; visibility:hidden !important;"><label for="wpcf7-6379189a16b0c-field" class="hp-message">Please leave this field empty.</label><input id="wpcf7-6379189a16b0c-field"  class="wpcf7-form-control wpcf7-text" type="text" name="namespan" value="" size="40" tabindex="-1" autocomplete="new-password" /></span></p>
+<style>
+span.wpcf7-list-item-label {
+    display: none;
+}
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0;
+}
+#csub1 {
+    background-color: #f28b0c !important;
+color: white !important;
+border: none !important;
+    border-radius: 5px;
+    font-size: 13px;
+position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    outline: 0;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    zoom: 1;
+    transition: color .2s ease-in-out,background .2s ease-in-out,border .2s ease-in-out;
+text-align: center;
+text-transform: uppercase;
+}
+#csub1:hover {
+   background-color: #E1E1E1  !important;
+color: #000000 !important;
+    border: 0px black solid !important;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea
+{
+    width: 100%;
+margin:5px auto;
+border-bottom: 1px solid #333 !important;
+    border-top: 0px solid #333 !important;
+    border-left: 0px solid #333 !important;
+    border-right: 0px solid #333 !important;
+}
+textarea
+{
+    height: 70px;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100% !important;
+    height: 38px !important;
+    cursor: text !important;
+    border-radius: 0px !important;
+ border-bottom: 1px solid #333 !important;
+    border-top: 0px solid #333 !important;
+    border-left: 0px solid #333 !important;
+    border-right: 0px solid #333 !important;
+}</p>
+<p>input.wpcf7-form-control.wpcf7-text {
+    background: #f9f9f9 !important;
+    width: 267px;
+    height: 38px;
+ border-bottom: 1px solid #333 !important;
+    border-top: 0px solid #333 !important;
+    border-left: 0px solid #333 !important;
+    border-right: 0px solid #333 !important;
+}</p>
+<p>.wpcf7-form .wpcf7-textarea {
+    background-color: transparent;
+    font-size: 14px;
+    border-radius:0px !important;
+    width: 80% !important;
+ border-bottom: 1px solid #333 !important;
+    border-top: 0px solid #333 !important;
+    border-left: 0px solid #333 !important;
+    border-right: 0px solid #333 !important;
+}</p>
+<p>input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100% !important;
+    background-color: transparent !important;
+    height: 38px !important;
+    cursor: text !important;
+    border-radius: 0px !important;
+ border-bottom: 1px solid #333 !important;
+    border-top: 0px solid #333 !important;
+    border-left: 0px solid #333 !important;
+    border-right: 0px solid #333 !important;
+}</p>
+<p>input.wpcf7-form-control.wpcf7-submit {
+    background-color: #12a6eb !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px;
+    font-size: 13px;
+}
+input.wpcf7-form-control.wpcf7-text {
+    background: transparent !important;
+    width: 346px;
+    height: 40px;
+    border-radius: 0px;
+ border-bottom: 1px solid #333 !important;
+    border-top: 0px solid #333 !important;
+    border-left: 0px solid #333 !important;
+    border-right: 0px solid #333 !important;
+}
+.contact-form-submit input {
+  text-transform:none !important;
+}
+#wpcf7-f4958-o1 > .wpcf7-form > p > span.wpcf7-form-control-wrap > .wpcf7-text {
+    color: #111;
+    width: 95.5%;
+}
+#wpcf7-f4958-o1 > .wpcf7-form > p > span.wpcf7-form-control-wrap {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: inherit !important;
+    left: 0px !important;
+}</p>
+</style>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>
+</div>
+		</div></div><div id="crazyblog-fancy-popular-posts-2" class="widget_crazyblog-fancy-popular-posts"><div class="widget"><div class="widget-title"><h4>Most Read</h4></div>
+		<div class="latest-post-widget">
+								<div class="sidebar-post">
+						<div class="post-thumb">
+							<a href="https://www.einfochips.com/blog/how-to-obtain-googles-gms-license-for-android-devices/" title="How to Obtain Google&#8217;s GMS Certification for Latest Android Devices?"><img width="370" height="197" src="https://www.einfochips.com/blog/wp-content/uploads/2017/04/software-featured-image-370x197.jpg" class="attachment-crazyblog_370x197 size-crazyblog_370x197 wp-post-image" alt="" decoding="async" loading="lazy" /></a>
+						</div>
+						<h3><a title="" href="https://www.einfochips.com/blog/how-to-obtain-googles-gms-license-for-android-devices/" >How to Obtain Google&#8217;s GMS Certification for Latest Android Devices?</a></h3>
+						<ul class="meta">
+							<li><a title="" href="https://www.einfochips.com/blog/2018/10/29/">August 8, 2019</a></li>
+							<li style="display:none;"><i class="fa fa-comments"></i> 0</li>
+						</ul>
+					</div>
+										<div class="sidebar-post">
+						<div class="post-thumb">
+							<a href="https://www.einfochips.com/blog/everything-you-need-to-know-about-in-vehicle-infotainment-system/" title="Everything You Need to Know About In-Vehicle Infotainment Systems"><img width="370" height="197" src="https://www.einfochips.com/blog/wp-content/uploads/2018/08/everything-you-need-to-know-about-in-vehicle-infotainment-system-370x197.jpg" class="attachment-crazyblog_370x197 size-crazyblog_370x197 wp-post-image" alt="Everything You Need to Know About In-Vehicle Infotainment System" decoding="async" loading="lazy" /></a>
+						</div>
+						<h3><a title="" href="https://www.einfochips.com/blog/everything-you-need-to-know-about-in-vehicle-infotainment-system/" >Everything You Need to Know About In-Vehicle Infotainment Systems</a></h3>
+						<ul class="meta">
+							<li><a title="" href="https://www.einfochips.com/blog/2018/10/29/">August 17, 2018</a></li>
+							<li style="display:none;"><i class="fa fa-comments"></i> 0</li>
+						</ul>
+					</div>
+										<div class="sidebar-post">
+						<div class="post-thumb">
+							<a href="https://www.einfochips.com/blog/medical-device-design-guide-for-medtech/" title="Medical Device Design and Development: A Guide for Medtech Professionals"><img width="370" height="197" src="https://www.einfochips.com/blog/wp-content/uploads/2017/10/Medical-Device-Design-and-Development-A-Definitive-Guide-for-Medtech-Professionals-370x197.jpg" class="attachment-crazyblog_370x197 size-crazyblog_370x197 wp-post-image" alt="Medical Device Design and Development: A Definitive Guide for Medtech Professionals" decoding="async" loading="lazy" /></a>
+						</div>
+						<h3><a title="" href="https://www.einfochips.com/blog/medical-device-design-guide-for-medtech/" >Medical Device Design and Development: A Guide for Medtech Professionals</a></h3>
+						<ul class="meta">
+							<li><a title="" href="https://www.einfochips.com/blog/2018/10/29/">October 23, 2017</a></li>
+							<li style="display:none;"><i class="fa fa-comments"></i> 0</li>
+						</ul>
+					</div>
+										<div class="sidebar-post">
+						<div class="post-thumb">
+							<a href="https://www.einfochips.com/blog/everything-you-need-to-know-about-hardware-requirements-for-machine-learning/" title="Everything you Need to Know About Hardware Requirements for Machine Learning"><img width="370" height="197" src="https://www.einfochips.com/blog/wp-content/uploads/2019/02/everything-you-need-to-know-about-hardware-requirements-for-machine-learning-featured-370x197.jpg" class="attachment-crazyblog_370x197 size-crazyblog_370x197 wp-post-image" alt="Everything you need to know about Hardware Requirements for Machine Learning" decoding="async" loading="lazy" /></a>
+						</div>
+						<h3><a title="" href="https://www.einfochips.com/blog/everything-you-need-to-know-about-hardware-requirements-for-machine-learning/" >Everything you Need to Know About Hardware Requirements for Machine Learning</a></h3>
+						<ul class="meta">
+							<li><a title="" href="https://www.einfochips.com/blog/2018/10/29/">February 24, 2019</a></li>
+							<li style="display:none;"><i class="fa fa-comments"></i> 0</li>
+						</ul>
+					</div>
+							</div><!-- Latest Widget  -->
+
+
+		</div></div><div id="categories-4" class="widget_categories"><div class="widget"><div class="widget-title"><h4>Categories</h4></div><form action="https://www.einfochips.com/blog" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform'>
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="108">General</option>
+	<option class="level-0" value="226">Industry Categories</option>
+	<option class="level-1" value="99">&nbsp;&nbsp;&nbsp;Aerospace</option>
+	<option class="level-1" value="94">&nbsp;&nbsp;&nbsp;Automotive</option>
+	<option class="level-1" value="225">&nbsp;&nbsp;&nbsp;Consumer Electronics</option>
+	<option class="level-1" value="104">&nbsp;&nbsp;&nbsp;CSR</option>
+	<option class="level-1" value="232">&nbsp;&nbsp;&nbsp;Food and Beverages</option>
+	<option class="level-1" value="102">&nbsp;&nbsp;&nbsp;Healthcare</option>
+	<option class="level-1" value="103">&nbsp;&nbsp;&nbsp;Home Automation</option>
+	<option class="level-1" value="101">&nbsp;&nbsp;&nbsp;Industrial Automation</option>
+	<option class="level-1" value="96">&nbsp;&nbsp;&nbsp;Retail</option>
+	<option class="level-1" value="97">&nbsp;&nbsp;&nbsp;Security &amp; Surveillance Access Control</option>
+	<option class="level-1" value="338">&nbsp;&nbsp;&nbsp;Supply chain</option>
+	<option class="level-1" value="231">&nbsp;&nbsp;&nbsp;Telecom</option>
+	<option class="level-0" value="227">Technology Categories</option>
+	<option class="level-1" value="215">&nbsp;&nbsp;&nbsp;AI &amp; Machine Learning</option>
+	<option class="level-1" value="322">&nbsp;&nbsp;&nbsp;Blockchain</option>
+	<option class="level-1" value="220">&nbsp;&nbsp;&nbsp;Cloud</option>
+	<option class="level-1" value="321">&nbsp;&nbsp;&nbsp;Cybersecurity/Security</option>
+	<option class="level-1" value="107">&nbsp;&nbsp;&nbsp;DevOps</option>
+	<option class="level-1" value="105">&nbsp;&nbsp;&nbsp;Embedded Software</option>
+	<option class="level-1" value="229">&nbsp;&nbsp;&nbsp;Hardware</option>
+	<option class="level-1" value="100">&nbsp;&nbsp;&nbsp;Internet of Things</option>
+	<option class="level-1" value="221">&nbsp;&nbsp;&nbsp;QA &amp; Testing</option>
+	<option class="level-1" value="230">&nbsp;&nbsp;&nbsp;Remote Device Management</option>
+	<option class="level-1" value="336">&nbsp;&nbsp;&nbsp;RPA/Hyperautomation</option>
+	<option class="level-1" value="95">&nbsp;&nbsp;&nbsp;Semiconductor</option>
+	<option class="level-1" value="106">&nbsp;&nbsp;&nbsp;Software and Mobile Apps</option>
+</select>
+</form>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+			</div></div><div id="text-6" class="widget_text"><div class="widget"><div class="widget-title"><h4>Subscribe to Newsletter</h4></div>			<div class="textwidget"><p><!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]--><br />
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script><br />
+<script>
+  hbspt.forms.create({ 
+    css: '',
+    portalId: '1727691',
+    formId: '65027824-d999-45fc-b4e3-4e3634775a8c'
+  });
+</script></p>
+</div>
+		</div></div>						</aside>
+									</div>
+			</div>
+		</div>
+	</section>
+				<footer class="dark style2">
+		<div class="block blackish">
+			<div class="parallax" data-velocity="-.1" style="background: url() repeat scroll 50% 0 transparent;"></div>
+			<div class="container">
+				<div class="row">
+									</div>
+			</div>
+		</div>
+	</footer><!-- Footer -->
+
+	<div class="bottom-footer">
+		<div class="container">
+			<p><span><p style="text-align:center;color:#fff;font-size:16px;padding:0 0px">©2020 eInfochips (an Arrow company), all rights reserved. <a style="color: #fff;margin-right:0px;margin-left:0px;text-decoration:underline" href="https://www.einfochips.com/terms-and-conditions/" target="_blank">Terms and Conditions</a> | Know more about eInfochcips's <a style="color: #fff;text-decoration:underline" href="https://www.einfochips.com/privacy-policy/" target="_blank">Privacy Policy</a> and <a style="color: #fff;text-decoration:underline" href="https://www.einfochips.com/cookie-policy/" target="_blank">Cookie Policy</a></p> </span></p>					</div>
+	</div><!-- Bottom Footer -->
+
+</div><!-- Theme Layout -->
+<script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpf"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpf-4.2.7"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Follow Buttons by AddThis","plugin_version":"4.2.7","plugin_mode":"AddThis","anonymous_profile_id":"wp-98afd4142ed316277bf2cfcf9c53d517","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script> <script data-cfasync="false" type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5719ef2286952f02" async="async"></script><script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpp"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpp-6.2.7"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"6.2.7","plugin_mode":"AddThis","anonymous_profile_id":"wp-98afd4142ed316277bf2cfcf9c53d517","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script> <script data-cfasync="false" type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5719ef2286952f02" async="async"></script><script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.einfochips.com\/blog\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4' id='contact-form-7-js'></script>
+<script type='text/javascript' id='cookie-notice-front-js-extra'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/www.einfochips.com\/blog\/wp-admin\/admin-ajax.php","nonce":"9bf0f44641","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2147483647","cookieTimeRejected":"2592000","globalCookie":"0","redirection":"0","cache":"1","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script async type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/cookie-notice/js/front.min.js?ver=2.4.2' id='cookie-notice-front-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LcDWJ0UAAAAALruO-5J-m5-ISlMr2Z2dbQzFOb5&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LcDWJ0UAAAAALruO-5J-m5-ISlMr2Z2dbQzFOb5","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.6.4' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js' id='google-maps-js'></script>
+<script type='text/javascript' id='ubermenu-js-extra'>
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","collapse_after_scroll":"on","v":"3.2.7","configurations":["main"],"ajax_url":"https:\/\/www.einfochips.com\/blog\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/www.einfochips.com\/blog\/wp-content\/plugins\/ubermenu\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=3.2.7' id='ubermenu-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/crazyblog-custom-plugin/assets/3rd-party/bs3/bootstrap/js/bootstrap_frontend.min.js?ver=3.0.2' id='cr-bootstrap3-frontend-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/plugins/crazyblog-custom-plugin/assets/js/frontend.js' id='cr-megamenu-site-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/js/sticky-sidebar.js?ver=1.9' id='crazyblog_df-sticky-sidebar-js'></script>
+<script type='text/javascript' id='crazyblog_df-script-js-extra'>
+/* <![CDATA[ */
+var crazyblog = {"isSticky":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/js/script.js?ver=1.9' id='crazyblog_df-script-js'></script>
+<script type='text/javascript' id='crazyblog_df-script-js-after'>
+if(theme_url === undefined) 
+				var theme_url="https://www.einfochips.com/blog/wp-content/themes/crazyblog/";
+			if(ajaxurl === undefined) 
+				var ajaxurl="https://www.einfochips.com/blog/wp-admin/admin - ajax . php";
+jQuery(document).ready(function () {
+													like_dislike(7128);
+												});
+</script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-includes/js/comment-reply.min.js?ver=6.1.1' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/js/jquery.magnific-popup.min.js?ver=1.9' id='crazyblog_df-magnific-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/js/enscroll-0.5.2.min.js?ver=1.9' id='crazyblog_df-enscroll-js'></script>
+<script type='text/javascript' src='https://www.einfochips.com/blog/wp-content/themes/crazyblog/assets/js/owl.carousel.min.js?ver=1.9' id='crazyblog_df-owl-js'></script>
+<script type='text/javascript' id='crazyblog_df-owl-js-after'>
+jQuery(document).ready(function ($) {
+			jQuery(".related-carousel").owlCarousel({
+				autoplay: true,
+				autoplayTimeout: 2500,
+				smartSpeed: 2000,
+				autoplayHoverPause: true,
+				loop: false,
+				dots: false,
+				nav: false,
+				margin: 20,
+				mouseDrag: true,
+				autoHeight: true,
+				items: 3,
+				responsive: {
+					1200: {items: 3}, 
+					980: {items: 3},
+					768: {items: 3},
+					480: {items: 2},
+					0: {items: 0}
+				}
+			});
+			jQuery(".related-posts").removeClass("none");
+		});
+</script>
+
+
+		<!-- Cookie Notice plugin v2.4.2 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(0,0,0,1);"><div class="cookie-notice-container" style="color: #fff;"><span id="cn-notice-text" class="cn-text-container">We've updated our <a href="https://www.arrow.com/en/legal/privacy-policy" target="_blank">privacy policy</a>. Please take a moment to review these changes. By clicking I Agree, you agree to Arrow Electronics Privacy Policy and Cookie Policy.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button cn-button-custom button" aria-label="Accept Terms">Accept Terms</a><a href="https://www.arrow.com/en/legal/cookie-policy" target="_blank" id="cn-more-info" class="cn-more-info cn-button cn-button-custom button" aria-label="Read more">Read more</a></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin --><!-- Google Code for Remarketing Tag -->
+
+<script type="text/javascript">
+
+/* <![CDATA[ */
+
+var google_conversion_id = 960237586;
+
+var google_custom_params = window.google_tag_params;
+
+var google_remarketing_only = true;
+
+/* ]]> */
+
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+
+</script>
+
+<noscript>
+
+<div style="display:inline;">
+
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/960237586/?value=0&amp;guid=ON&amp;script=0"/>
+
+</div>
+
+</noscript>
+
+
+
+
+
+
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1727691.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+<!-- Start of Linkedin Tracking code -->
+
+<script type="text/javascript">
+
+_linkedin_data_partner_id = "31862";
+
+</script><script type="text/javascript">
+
+(function(){var s = document.getElementsByTagName("script")[0];
+
+var b = document.createElement("script");
+
+b.type = "text/javascript";b.async = true;
+
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+
+s.parentNode.insertBefore(b, s);})();
+
+</script>
+
+<!-- End of Linkedin Tracking code -->
+
+ 
+<!-- Google Code for eI Form Fillups Via AdWords Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 960237586;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "Bkz9CJ7Cq28QkqDwyQM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/960237586/?label=Bkz9CJ7Cq28QkqDwyQM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script type='text/javascript'>
+window.__lo_site_id = 151117;
+
+                (function() {
+                                var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+                                wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+                  })();
+                </script>
+
+
+<!-- Live Chat Button Code --> 
+
+<div id="live_chat_status"></div>
+
+ <!-- Live Chat Button Code -->
+
+
+
+<!--Start of Chat Window Code-->
+
+
+<script  type='text/javascript'>window.WGAccountID = 'TGl2ZUFkbWlucy9laW5mb2NoaXBzLmNvbS8=';(function(){var e = document.createElement('script'); e.async = true;e.src = window.location.protocol + '//thelivechatsoftware.com/Dashboard/cwgen/scripts/la_script_mag2.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(e, s);} ());</script>
+
+<!--End of Chat Window Code-->
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5719ef2286952f02"></script>
+<style>
+.at-share-btn-elements{text-align:left !important;}
+</style>
+</body>
+</html>
