@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Machine Learning
 title:  "Introduction of Machine Learning"
 summary: "Defination of machine leaning."
 author: anachary
