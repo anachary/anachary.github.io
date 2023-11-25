@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Azure Entra ID"
+title:  "Deep Dive on Azure Entra ID"
 summary: "Deep Dive on Azure Entra ID"
 author: anachary
 date: '2023-11-25 14:35:23 +0530'
