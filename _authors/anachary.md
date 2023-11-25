@@ -1,7 +1,7 @@
 ---
 name: Akash Acharya
 username: anachary
-bio: "Full Stack Web Developer, based in Florida, USA"
+bio: "Azure Solution Architect, Full Stack Web Developer, based in Florida, USA"
 avatar: anachary.jpg
 email: akashnacharya@gmail.com
 social:
