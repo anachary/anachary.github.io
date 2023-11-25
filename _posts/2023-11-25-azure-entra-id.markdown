@@ -7,7 +7,7 @@ date: '2023-11-25 14:35:23 +0530'
 category: "azure"
 thumbnail: /assets/img/posts/aure-entra-id.jpg
 keywords: logical programmer,Azure,Entra ID
-permalink: blog/2023-11-25-azure-entra-id/
+permalink: /blog/2023-11-25-azure-entra-id/
 usemathjax: true
 ---
 
