@@ -4,7 +4,7 @@ title:  "Overview of Microsoft Entra ID"
 summary: "Overview of Azure Entra ID"
 author: anachary
 date: '2023-11-24 14:35:23 +0530'
-category: "azure"
+category: "cloud"
 thumbnail: /assets/img/posts/azure-entra-id.jpg
 keywords: logical programmer,Azure,Entra ID, Azure AD, Az-104 Az-305
 permalink: /blog/2023-11-24-azure-entra-id/
