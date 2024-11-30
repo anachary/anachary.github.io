@@ -178,17 +178,17 @@ blockquote {
 
  /* width */
  ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
  }
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background:  rgb(28, 28, 30);;
+    background: #0c0b0c;
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #212529;
+    background:  rgb(130, 130, 139);;
   }
 
   /* Handle on hover */
@@ -795,7 +795,6 @@ footer {
     .main-container{
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
     }
 }
 
@@ -1281,3 +1280,15 @@ footer {
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+th {
+    border : 2px solid silver;
+    padding: 10px;
+    font-weight: bold;
+    color: aqua;
+    
+}
+
+td {
+    border:2px solid silver;
+    padding:2px
+}
