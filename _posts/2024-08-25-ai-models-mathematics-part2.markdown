@@ -3,17 +3,17 @@ layout: post
 title:  "The Mathematics Behind LLM Thinking - Deep Dive into Transformer Operations"
 summary: "Ready to see what's really happening under the hood? Let's explore the mathematical foundations that power LLM inference, from attention mechanisms to matrix operations."
 author: anachary
-date: '2025-01-15 14:00:00 +0530'
+date: '2024-08-25 14:00:00 +0530'
 category: "AI"
 thumbnail: /assets/img/posts/llm-mathematics-deep-dive.jpg
 keywords: transformer mathematics, attention mechanism, LLM math, LLM inference algorithms, matrix operations, deep learning, GGUF format
-permalink: /blog/2025-01-15-ai-models-mathematics-part2/
+permalink: /blog/2024-08-25-ai-models-mathematics-part2/
 usemathjax: true
 ---
 
 # The Mathematics Behind LLM Thinking - Deep Dive into Transformer Operations
 
-*So you read [Part 1](/blog/2025-01-15-how-ai-models-think-part1/) and thought "This is cool, but I want to see the actual math"? I get it. I was the same way. The conceptual understanding was fascinating, but I needed to see the equations, the matrix operations, the nitty-gritty details to really understand how this magic works.*
+*So you read [Part 1](/blog/2024-08-25-how-ai-models-think-part1/) and thought "This is cool, but I want to see the actual math"? I get it. I was the same way. The conceptual understanding was fascinating, but I needed to see the equations, the matrix operations, the nitty-gritty details to really understand how this magic works.*
 
 *Same disclaimer as before: I'm not a machine learning researcher or mathematician. I'm just someone who got really curious about how LLMs work and spent way too much time reading papers and implementing algorithms until things clicked. If you can do basic algebra and aren't afraid of some matrix multiplication, you can follow along.*
 
@@ -21,7 +21,7 @@ usemathjax: true
 
 ## The Mathematical Foundation
 
-Remember in [Part 1](/blog/2025-01-15-how-ai-models-think-part1/) when I mentioned that LLM responses emerge from "mathematical operations"? Well, let me show you exactly what I meant. The transformer architecture we're exploring was introduced in the seminal "Attention Is All You Need" paper [1], which completely revolutionized how we think about language models.
+Remember in [Part 1](/blog/2024-08-25-how-ai-models-think-part1/) when I mentioned that LLM responses emerge from "mathematical operations"? Well, let me show you exactly what I meant. The transformer architecture we're exploring was introduced in the seminal "Attention Is All You Need" paper [1], which completely revolutionized how we think about language models.
 
 At its core, every single LLM response - every witty comeback, every helpful explanation, every creative story - is the result of carefully orchestrated matrix operations and non-linear transformations. It's honestly mind-blowing when you see it laid out mathematically.
 
@@ -497,7 +497,7 @@ There's no "creativity module" or "understanding subroutine." The LLM's ability 
 
 When I first implemented these algorithms myself and saw them actually generate coherent text, I had this moment of "Holy shit, it actually works!" The math we just walked through - that's literally what's happening every time you chat with an LLM.
 
-*This mathematical foundation enables the conversational LLMs we explored in [Part 1](/blog/2025-01-15-how-ai-models-think-part1/). If you haven't read that yet, it provides the conceptual framework that makes all this math meaningful. And if you want to dive even deeper, I'm planning future posts on training mathematics, optimization techniques, and how to implement these algorithms efficiently.*
+*This mathematical foundation enables the conversational LLMs we explored in [Part 1](/blog/2024-08-25-how-ai-models-think-part1/). If you haven't read that yet, it provides the conceptual framework that makes all this math meaningful. And if you want to dive even deeper, I'm planning future posts on training mathematics, optimization techniques, and how to implement these algorithms efficiently.*
 
 ---
 
@@ -512,4 +512,4 @@ When I first implemented these algorithms myself and saw them actually generate 
 
 **Have you implemented any of these algorithms yourself? What aspects of the mathematics do you find most interesting or challenging? And if you made it through all this math - seriously, congratulations! You now understand the mathematical foundations of modern AI better than 99% of people. That's pretty awesome.**
 
-*Want to start from the beginning? Check out [Part 1: How AI Models Actually Think](/blog/2025-01-15-how-ai-models-think-part1/) for the conceptual foundation that makes all this math meaningful.*
+*Want to start from the beginning? Check out [Part 1: How AI Models Actually Think](/blog/2024-08-25-how-ai-models-think-part1/) for the conceptual foundation that makes all this math meaningful.*

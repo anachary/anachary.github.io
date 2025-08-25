@@ -3,11 +3,11 @@ layout: post
 title:  "How Large Language Models Actually Think - The Journey from GGUF File to Response"
 summary: "Ever wondered what happens when you ask an LLM a question? Let's trace the fascinating journey from a GGUF file to intelligent responses, without getting lost in the math."
 author: anachary
-date: '2025-01-15 10:00:00 +0530'
+date: '2024-08-25 10:00:00 +0530'
 category: "AI"
 thumbnail: /assets/img/posts/llm-thinking-journey.jpg
 keywords: large language models, LLM, GGUF file format, neural networks, transformer, LLM inference, machine learning, how LLMs work
-permalink: /blog/2025-01-15-how-ai-models-think-part1/
+permalink: /blog/2024-08-25-how-ai-models-think-part1/
 usemathjax: false
 ---
 
@@ -102,7 +102,7 @@ Here's something I found fascinating: your question "What is the meaning of life
 **Step 5: Converting to Math**
 Then each token gets converted into a long list of numbers - usually 896 or more dimensions. This blew my mind when I first learned it: the LLM represents the "meaning" of the word "life" as something like [0.1234, -0.5678, 0.9012, ...] with hundreds of numbers. Somehow, this mathematical representation captures the essence of what "life" means in the context of human language.
 
-This is where the real mathematical magic happens - if you want to understand exactly how this embedding process works and see the actual equations behind it, check out [Part 2: The Mathematics Behind LLM Thinking](/blog/2025-01-15-ai-models-mathematics-part2/).
+This is where the real mathematical magic happens - if you want to understand exactly how this embedding process works and see the actual equations behind it, check out [Part 2: The Mathematics Behind LLM Thinking](/blog/2024-08-25-ai-models-mathematics-part2/).
 
 ### Phase 3: The Thinking Process
 
@@ -200,7 +200,7 @@ Now, if you're like me, you might be thinking: "This is cool, but HOW does the a
 
 I had the exact same questions. The conceptual understanding was fascinating, but I needed to see the actual math to really get it. So I spent weeks diving into research papers, implementing algorithms, and figuring out the mathematical foundations.
 
-If you're curious about the nitty-gritty details - the actual equations, the matrix operations, the algorithms that make this magic happen - I've written a companion post that goes deep into the mathematics: **[The Mathematics Behind AI Thinking - Deep Dive into Neural Network Operations](/blog/2025-01-15-ai-models-mathematics-part2/)**.
+If you're curious about the nitty-gritty details - the actual equations, the matrix operations, the algorithms that make this magic happen - I've written a companion post that goes deep into the mathematics: **[The Mathematics Behind AI Thinking - Deep Dive into Neural Network Operations](/blog/2024-08-25-ai-models-mathematics-part2/)**.
 
 Fair warning: it gets pretty technical. We're talking attention mechanism formulas, RMSNorm equations, and SwiGLU activation functions. But if you want to understand how AI really works at the mathematical level, it's worth the journey.
 

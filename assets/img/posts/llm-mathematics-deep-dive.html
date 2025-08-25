@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Mathematics Deep Dive Thumbnail</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .thumbnail {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+        
+        .background-equations {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            color: white;
+            font-size: 24px;
+            font-family: 'Courier New', monospace;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        .title {
+            font-size: 64px;
+            font-weight: 900;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.1;
+        }
+        
+        .subtitle {
+            font-size: 28px;
+            color: rgba(255,255,255,0.9);
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+        
+        .math-flow {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .math-step {
+            background: rgba(255,255,255,0.2);
+            padding: 12px 20px;
+            border-radius: 12px;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+            font-family: 'Courier New', monospace;
+        }
+        
+        .arrow {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .formula-icon {
+            position: absolute;
+            top: 40px;
+            right: 60px;
+            font-size: 100px;
+            opacity: 0.3;
+        }
+        
+        .matrix-icon {
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+            font-size: 60px;
+            opacity: 0.3;
+        }
+        
+        .part-label {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="thumbnail">
+        <div class="background-equations">
+            <div>Q = XW_Q</div>
+            <div>K = XW_K</div>
+            <div>V = XW_V</div>
+            <div>softmax(QK^T/√d_k)V</div>
+            <div>RMSNorm(x)</div>
+            <div>SwiGLU(x)</div>
+            <div>E = Embedding[tokens]</div>
+            <div>RoPE(x, pos)</div>
+        </div>
+        
+        <div class="part-label">PART 2</div>
+        <div class="formula-icon">∑</div>
+        <div class="matrix-icon">⊗</div>
+        
+        <div class="title">The Mathematics<br>Behind LLM Thinking</div>
+        <div class="subtitle">Deep Dive into Transformer Operations</div>
+        
+        <div class="math-flow">
+            <div class="math-step">Embeddings</div>
+            <div class="arrow">→</div>
+            <div class="math-step">Attention</div>
+            <div class="arrow">→</div>
+            <div class="math-step">Feed-Forward</div>
+            <div class="arrow">→</div>
+            <div class="math-step">Output</div>
+        </div>
+    </div>
+</body>
+</html>
